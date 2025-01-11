@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"d4e6e50cdc03e9ca","x":218,"y":321,"width":151,"height":60,"color":"6","type":"text","text":"TABLE"},
+		{"id":"a4bf1abb822da34c","type":"text","text":"SEQUENCE","x":220,"y":418,"width":151,"height":60,"color":"6"},
+		{"id":"1278ee3e5bd2d951","type":"text","text":"IDENTITY","x":218,"y":508,"width":151,"height":60,"color":"6"},
+		{"id":"c1ba31381a567268","type":"text","text":"UUID","x":218,"y":609,"width":151,"height":60,"color":"6"},
+		{"id":"c2c83af762811d60","type":"text","text":"AUTO","x":216,"y":701,"width":151,"height":60,"color":"6"},
+		{"id":"f43c17aa6304db1d","type":"text","text":"Needs an ID to define how's the entity is going to be unique on DB","x":-80,"y":140,"width":300,"height":100,"color":"5"},
+		{"id":"e1046aee0e3f537e","type":"text","text":"Based on POJOs","x":-55,"y":-60,"width":250,"height":60,"color":"5"},
+		{"id":"a88653f8f5d61c14","type":"text","text":"JPA \n(Java Persistence API)","x":-50,"y":-200,"width":240,"height":60,"color":"5"},
+		{"id":"d7f76974804ce06d","type":"file","file":"6 - Main Notes/JPA.md","x":-1240,"y":-295,"width":1080,"height":251},
+		{"id":"cab51ff7e9ba1b1b","type":"file","file":"6 - Main Notes/JPA.md","x":555,"y":222,"width":1080,"height":1077},
+		{"id":"bad76c1096745296","type":"text","text":"Plain Old Java Objects","x":305,"y":-140,"width":250,"height":60,"color":"5"},
+		{"id":"6c30051b2b1de6cc","type":"text","text":"Just Java objects with getters/setters","x":305,"y":0,"width":250,"height":60,"color":"5"},
+		{"id":"82a8d9e77a05ee14","type":"file","file":"6 - Main Notes/JPA.md","x":-1240,"y":82,"width":1080,"height":216}
+	],
+	"edges":[
+		{"id":"394728dde66a45ba","fromNode":"a88653f8f5d61c14","fromSide":"bottom","toNode":"e1046aee0e3f537e","toSide":"top"},
+		{"id":"bd684a7191021301","fromNode":"a88653f8f5d61c14","fromSide":"left","toNode":"d7f76974804ce06d","toSide":"right"},
+		{"id":"01c69288bf65e132","fromNode":"bad76c1096745296","fromSide":"left","toNode":"e1046aee0e3f537e","toSide":"right"},
+		{"id":"8434fc9b221eeaf8","fromNode":"bad76c1096745296","fromSide":"bottom","toNode":"6c30051b2b1de6cc","toSide":"top"},
+		{"id":"31c890afa16cacbb","fromNode":"e1046aee0e3f537e","fromSide":"bottom","toNode":"f43c17aa6304db1d","toSide":"top"},
+		{"id":"d3c9ba24f446ecc3","fromNode":"f43c17aa6304db1d","fromSide":"bottom","toNode":"d4e6e50cdc03e9ca","toSide":"left"},
+		{"id":"9ba1d2ae0f2ffcc6","fromNode":"f43c17aa6304db1d","fromSide":"bottom","toNode":"a4bf1abb822da34c","toSide":"left"},
+		{"id":"a3e473563506c546","fromNode":"f43c17aa6304db1d","fromSide":"bottom","toNode":"1278ee3e5bd2d951","toSide":"left"},
+		{"id":"e03beefd8a8b01be","fromNode":"f43c17aa6304db1d","fromSide":"bottom","toNode":"c1ba31381a567268","toSide":"left"},
+		{"id":"de8610c0d9cc7317","fromNode":"f43c17aa6304db1d","fromSide":"bottom","toNode":"c2c83af762811d60","toSide":"left"},
+		{"id":"075182b9362f93a0","fromNode":"f43c17aa6304db1d","fromSide":"left","toNode":"82a8d9e77a05ee14","toSide":"right"},
+		{"id":"ea0ddd0714adb013","fromNode":"d4e6e50cdc03e9ca","fromSide":"right","toNode":"cab51ff7e9ba1b1b","toSide":"left"},
+		{"id":"1c796dd62bd1cea2","fromNode":"a4bf1abb822da34c","fromSide":"right","toNode":"cab51ff7e9ba1b1b","toSide":"left"},
+		{"id":"f5e9ff441bd1d2d8","fromNode":"1278ee3e5bd2d951","fromSide":"right","toNode":"cab51ff7e9ba1b1b","toSide":"left"},
+		{"id":"3bccd242aed85c7a","fromNode":"c1ba31381a567268","fromSide":"right","toNode":"cab51ff7e9ba1b1b","toSide":"left"},
+		{"id":"391bb2c045c248c9","fromNode":"c2c83af762811d60","fromSide":"right","toNode":"cab51ff7e9ba1b1b","toSide":"left"}
+	]
+}
