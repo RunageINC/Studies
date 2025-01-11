@@ -1,0 +1,5 @@
+nvm install <version> - Instala a versão especificada do Node.
+nvm list - lista as versões do Node
+nvm install --lts - Instala a versão **long-term support**, ou seja, a versão recomendada e sem bugs.
+nvm use <version> - Define a versão a ser utilizada.
+node -v > .nvmrc - salva o arquivo nvmrc com a versão do node
