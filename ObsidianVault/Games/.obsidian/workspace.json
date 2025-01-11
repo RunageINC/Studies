@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "a17c7ead6210d79f",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ab192758a66ce15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "556d7bc6be69dfb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Index/Games/Tales of Arise.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2fc66b7212916c89",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb1a1b408483c407",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e04b46264ba9987",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7c7b5e91edb209e3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7932357d4ebb0e23",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "154f6696c1763cea",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c14c3a4d6d20130",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8acc65f486d44a7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2 - Index/Games/Tales of Arise.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e8be35b6055eddca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2 - Index/Games/Tales of Arise.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ca32b9932c84fd76",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8a79648f2ff6a847",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2 - Index/Games/Tales of Arise.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "556d7bc6be69dfb2",
+  "lastOpenFiles": [
+    "4 - Templates/Arte Template.md",
+    "4 - Templates/Armor Template.md",
+    "4 - Templates/Enemies Template.md",
+    "4 - Templates/Locations, Characters, Terminology Template.md",
+    "4 - Templates/Weapon Template.md",
+    "4 - Templates/Party Characters Template.md",
+    "1 - Tags/Weapon.md",
+    "3 - Notes/Ragged Clothes.md",
+    "3 - Notes/Crimson Crows.md",
+    "3 - Notes/Shionne.md",
+    "3 - Notes/Rising Wyvern.md",
+    "3 - Notes/Dull Sword.md",
+    "3 - Notes/Calaglia Armored Swordsman.md",
+    "Pasted image 20240815144844.png",
+    "2 - Index/Games/Tales of Arise.md",
+    "3 - Notes/Alphen.md",
+    "3 - Notes/Rena.md",
+    "3 - Notes/Mirage.md",
+    "3 - Notes/Swallow Blade.md",
+    "3 - Notes/Dahnan.md",
+    "3 - Notes/Renan.md",
+    "2 - Index/Gentleman.md",
+    "1 - Tags/Iron Mask.md",
+    "3 - Notes/Dahna.md",
+    "1 - Tags/Groups.md",
+    "Images/Alphen.png",
+    "3 - Notes/Balseph.md",
+    "4 - Templates",
+    "Images/Ragged Clothes.png",
+    "Images/Dull Sword.png",
+    "Images/Shionne.png",
+    "Images",
+    "2 - Index/Games",
+    "3 - Notes",
+    "2 - Index",
+    "1 - Tags"
+  ]
+}

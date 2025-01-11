@@ -1,0 +1,2 @@
+
+Uma das coisas muito comuns ao trabalhar com aplicações é distribuir os arquivos em múltiplos. Esses arquivos se referenciam entre si, completando o ciclo completo da aplicação, que quando somados criam a funcionalidade da aplicação.

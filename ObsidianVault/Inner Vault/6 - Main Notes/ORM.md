@@ -1,0 +1,1 @@
+Object Relational Mapping, is a tool or framework for mapping persistent entities.

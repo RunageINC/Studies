@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"cb0a497c6c8397fa","type":"file","file":"2 - Source Material/YouTube/Learning Process/R.md","x":1080,"y":-109,"width":400,"height":400,"color":"5"},
+		{"id":"2d79bd458afbcc70","type":"file","file":"2 - Source Material/YouTube/Learning Process/A.md","x":1540,"y":291,"width":400,"height":400,"color":"5"},
+		{"id":"a917a3b42fc72330","type":"file","file":"2 - Source Material/YouTube/Learning Process/I.md","x":2020,"y":691,"width":400,"height":400,"color":"5"},
+		{"id":"c316438ee57e52f4","type":"file","file":"2 - Source Material/YouTube/Learning Process/L.md","x":2500,"y":1091,"width":400,"height":400,"color":"5"},
+		{"id":"2379de1fb4957a32","type":"file","file":"2 - Source Material/YouTube/Learning Process/How to Learn Complex Skills.md","x":160,"y":-183,"width":729,"height":549}
+	],
+	"edges":[
+		{"id":"2063a43a5660f4a4","fromNode":"cb0a497c6c8397fa","fromSide":"right","toNode":"2d79bd458afbcc70","toSide":"top"},
+		{"id":"8f0764c7deb6720c","fromNode":"2d79bd458afbcc70","fromSide":"right","toNode":"a917a3b42fc72330","toSide":"top"},
+		{"id":"36b83c7aab4d1958","fromNode":"a917a3b42fc72330","fromSide":"right","toNode":"c316438ee57e52f4","toSide":"top"},
+		{"id":"0d9952a286b8328b","fromNode":"2379de1fb4957a32","fromSide":"right","toNode":"cb0a497c6c8397fa","toSide":"left"}
+	]
+}
