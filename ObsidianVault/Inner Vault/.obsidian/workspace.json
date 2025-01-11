@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e1ecfa9fb0d3c299",
+        "id": "51a952afd9482899",
         "type": "tabs",
         "children": [
           {
-            "id": "4e55cae406f73325",
+            "id": "80bbcea55cdf0195",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal Projects/Estudos (com Sourcing) + Toolings.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Estudos (com Sourcing) + Toolings"
+              "title": "New tab"
             }
           }
         ]
@@ -152,8 +147,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -173,16 +168,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
-      "obsidian-kanban:Create new board": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4e55cae406f73325",
+  "active": "92c6d2ac231bfd14",
   "lastOpenFiles": [
+    "Excalidraw/Meli/TLV Ecossystem.excalidraw",
+    "Excalidraw/Meli/TLV Ecossystem.png",
+    "7 - Kanban/Meli Tasks Kanban Q4-2024.md",
+    "Personal Projects/Estudos (com Sourcing) + Toolings.md",
     "Personal Projects/Project Ideas.md",
     "Personal Projects/Presentation Script.md",
-    "Personal Projects/Estudos (com Sourcing) + Toolings.md",
     "6 - Main Notes/Monitoramento.md",
     "Personal Projects/Cover Letter - Fullstack.md",
     "Personal Projects/Cover Letter - Front End.md",
@@ -204,8 +202,6 @@
     "1 - Rough Notes & Ideas/TAJS articles.md",
     "Personal Projects/Projects/YGO TF 1 Deck Builder Board.md",
     "Personal Projects/Projects/FFTA2 Board.md",
-    "Personal Projects/Projects/FFTA2 Builder Entity Definition.md",
-    "Personal Projects/Projects/Study/SFG Bookery.md",
     "Persistence.canvas",
     "Imgs&Assets/Bean destroy cycle.png",
     "Imgs&Assets/Bean Lifecycle.png",
@@ -222,8 +218,6 @@
     "Untitled.canvas",
     "6 - Main Notes/Java",
     "Personal Projects/Projects",
-    "Excalidraw/Meli/TLV Ecossystem.png",
-    "Excalidraw/Meli/TLV Ecossystem.excalidraw",
     "Imgs&Assets/Audit/javers.png",
     "Imgs&Assets/Audit",
     "Personal Projects/Rocket Seat",
