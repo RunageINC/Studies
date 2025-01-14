@@ -21,7 +21,7 @@ public class Author {
 ```
 
 - <span style="color: #9fad05">@Id</span> → Indicates which field is going to be used as an identificator on DB.
-- <span style="color: #9fad05">@GeneratedValue</span> → The primary key generation strategy that the persistence provider (the database) must use to generate the annotated entity primary key. It is an optional property and used when we want to explicitly indicate it. The strategies are: 
+- <span style="color: #9fad05">@GeneratedValue</span> → The primary key generation strategy that the persistence provider (hibernate for example) must use to generate the annotated entity primary key. It is an optional property and used when we want to explicitly indicate it. The strategies are: 
 	- **TABLE** → The database must use a table to ensure uniqueness (for example a table called `hibernate_sequences`)
 	- **SEQUENCE** → The database must assign a sequence column. It can be used together with another annotation called <span style="color: #9fad05">@SequenceGenerator</span>, that defines how's the sequence is going to be: 
 	  `@SequenceGenerator(name = "employee_seq", sequenceName = "employee_sequence", allocationSize = 1)`

@@ -4,7 +4,7 @@
 [[Call Stack]]
 [[Memory Heap]]
 [[Default Exports vs Named Exports]]
-
+[[Type Cohersion]]
 
 ### Node
 [[Node]]

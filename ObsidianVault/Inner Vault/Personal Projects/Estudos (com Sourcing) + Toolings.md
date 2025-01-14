@@ -14,12 +14,9 @@
 - [ ] [Curso do gemeos investem vale a pena?](https://www.youtube.com/watch?v=0kEs4CK5Q0Q)
 - [ ] [500 de renda passiva começando do 0](https://www.youtube.com/watch?v=FzLqn1V7t0c)
 - [ ] [Por que sua vida muda depois dos 100k](https://www.youtube.com/watch?v=6vNQzjVNr8I)
-- [ ] 
-
 ### Game Dev
 
 - [ ] [Unreal engine 5.5 is a big deal](https://www.youtube.com/watch?v=BcmUZpdChhA)
-- [ ] 
 
 ### UI/UX + Design
 - [ ] [Analisando Design Gráfico](https://www.youtube.com/watch?v=24EjKKmYnkU)
@@ -336,6 +333,7 @@
 - [ ] [CursoDEV](https://curso.dev/)
 - [ ] [Fullcycle](https://plataforma.fullcycle.com.br/login)
 - [ ] [Rodrigo Branas](https://app.branas.io/users/a423f2ca-fec6-4119-a75a-703696ff4ec7/products/4b62f55b-398f-424b-ba9f-d9cbb12c1482/contents/1920ec01-fdea-47fd-a4fa-8e312a7cc945)
+- [ ] [Reservatório de Dopamina](https://reservatoriodedopamina.com.br/)
 
 ### Udemy 
 #### Architecture
