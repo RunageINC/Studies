@@ -8,8 +8,9 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2529960f5215b7b0",
+            "id": "857177ef8e63e535",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,26 +19,28 @@
                 "backlinks": true,
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Diário 75 dias"
             }
           },
           {
-            "id": "1756ddfef51c6cc5",
+            "id": "7a2453f610f15e93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Javascript/Memory Heap.md",
+                "file": "6 - Main Notes/Symbol.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Memory Heap"
+              "title": "Symbol"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GenerationT",
+                "query": "apply",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,40 +196,42 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2529960f5215b7b0",
+  "active": "7a2453f610f15e93",
   "lastOpenFiles": [
     "4 - Indexes/JavaScript.md",
-    "6 - Main Notes/Javascript/Strict mode.md",
+    "6 - Main Notes/Symbol.md",
+    "6 - Main Notes/Functions.md",
+    "Personal Projects/Project Ideas.md",
+    "Personal Projects/Diário 75 dias.md",
+    "6 - Main Notes/Generator Functions.md",
+    "Excalidraw/Drawing 2025-01-17 18.06.32.excalidraw.md",
+    "1 - Rough Notes & Ideas/Testing/Mocha.md",
+    "Personal Projects/Projects/WebPraia/Sec.md",
+    "6 - Main Notes/Untitled.md",
+    "7 - Kanban/Meli Tasks Kanban Q4-2024.md",
+    "7 - Kanban/Studies Kanban.md",
+    "Excalidraw/Drawing 2025-01-15 08.45.56.excalidraw.md",
+    "6 - Main Notes/System Design/Async Processing.md",
+    "Personal Projects/Feedbacks de artigos.md",
+    "6 - Main Notes/Prototype Chain.md",
+    "Pasted image 20250115085124.png",
     "6 - Main Notes/Type Cohersion.md",
+    "7 - Kanban/Daily Tasks.md",
+    "7 - Kanban/Untitled.canvas",
+    "6 - Main Notes/Links u╠üteis.md",
+    "6 - Main Notes/Keycloak.md",
+    "6 - Main Notes/OAuth 2.0.md",
+    "1 - Rough Notes & Ideas/Jwt article.md",
+    "6 - Main Notes/Javascript/Strict mode.md",
     "6 - Main Notes/Javascript/Memory Heap.md",
     "6 - Main Notes/Javascript/Call Stack.md",
-    "7 - Kanban/Studies Kanban.md",
     "Personal Projects/Presentation Script.md",
-    "Personal Projects/Personal Canva.md",
-    "Personal Projects/Movies.md",
-    "Personal Projects/Estudos (com Sourcing) + Toolings.md",
-    "1 - Rough Notes & Ideas/Testing/Mocks.md",
-    "Personal Projects/Diário 75 dias.md",
-    "Excalidraw/PetApp Lua.excalidraw.md",
-    "Excalidraw/Spring Explanations.excalidraw.md",
-    "Excalidraw/Studies.excalidraw.md",
-    "Excalidraw/Transbordo.excalidraw.md",
-    "Excalidraw/Drawing 2025-01-13 10.51.34.excalidraw.md",
-    "Excalidraw/FFTA2.excalidraw.md",
-    "7 - Kanban/Todo Webpraia.md",
-    "7 - Kanban/Meli Tasks Kanban Q4-2024.md",
     "Pasted Image 20250113122545_305.png",
-    "6 - Main Notes/JPA.md",
-    "6 - Main Notes/Referencias Front.md",
     "Pasted Image 20250113120437_280.png",
     "Pasted Image 20250113120407_276.png",
     "Pasted Image 20250113120149_274.png",
-    "6 - Main Notes/Generator Functions.md",
-    "1 - Rough Notes & Ideas/Jwt article.md",
     "Excalidraw/Meli/TLV Ecossystem.excalidraw",
     "Excalidraw/Meli/TLV Ecossystem.png",
-    "Personal Projects/Project Ideas.md",
-    "6 - Main Notes/Monitoramento.md",
     "Persistence.canvas",
     "Imgs&Assets/Bean destroy cycle.png",
     "Imgs&Assets/Bean Lifecycle.png",
@@ -236,7 +241,6 @@
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "Personal Projects/Projects/WebPraia",
     "6 - Main Notes/Data Communication Models/Untitled",
-    "Imgs&Assets/Repository Explanation.png",
     "Untitled.canvas",
     "6 - Main Notes/Java",
     "Personal Projects/Projects",
