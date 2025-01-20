@@ -5,7 +5,9 @@
 [[Memory Heap]]
 [[Default Exports vs Named Exports]]
 [[Type Cohersion]]
-
+[[Prototype Chain]]
+[[Functions]]
+[[Symbol]]
 ### Node
 [[Node]]
 
@@ -14,6 +16,8 @@
 [[Generator Functions]]
 
 ### Libs
+chalk - Lib de impressão bonitinha no terminal
+chalk-table
 
 
 ### Frameworks
