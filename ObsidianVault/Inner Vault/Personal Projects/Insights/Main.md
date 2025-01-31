@@ -158,7 +158,9 @@ What keeps me from doing what I love the most:
 
 > _No man ever steps in the same river twice, for it's not the same river and he's not the same man._
 
-[Lua](https://www.notion.so/Lua-a3c15e596085402e9a134f4f9e04a290?pvs=21)
+
+Books for Lua
+[Não pise no meu vazio](https://www.amazon.com.br/N%C3%A3o-pise-meu-vazio-livro/dp/854222244X/ref=mp_s_a_1_1?adgrpid=130714201648&dib=eyJ2IjoiMSJ9.K7xYYLmKO8LpNayrsyMgjyKiLrzJscSeOc_-MntmLkMum2A7vLZcqUG3LMd6AmmrNgZJkIpvZ2KaqsT7Sl_SbSlrK3AQ9cXwb0iLonns7iYEGSPzlC-wWWsCxARst94Z1wRh1kn74XruVmUgOig7YJnIH5KGQunfEcAFh0cIyT0CkoPNmrhKQmt8Qvnstpfl0Aw-_m0zlgBxDG3x_NUypg.T7YxbezgxfGi55OpPHZ04i_x3j-H95H_D-ZZ4Yveri0&dib_tag=se&hvadid=595860141819&hvdev=m&hvlocphy=9196262&hvnetw=g&hvqmt=e&hvrand=8364990728846388200&hvtargid=kwd-599049596321&hydadcr=19445_13406608&keywords=nao+pise+no+meu+vazio&qid=1737381431&sr=8-1)
 
 
 ### Insights para trabalhar para o exterior

@@ -50,3 +50,20 @@ Por fim, acordar cedo está sendo maravilhoso pro meu sono. To caindo de sono e 
 
 ### Dia 5 - 20/01/2025
 
+O dia foi bom, percebi que não estou tendo dificuldades em acordar no horário. Ao longo do dia recebi um feedback complicado sobre um evento que aconteceu onde eu fui com muita sede ao pote, ignorei as recomendações de segurança e me lasquei no trampo, instalando um malware.
+
+Além disso, o ultimo quarter pra mim foi um quarter extremamente complicado psicologicamente por conta de fatores que não quero falar sobre. Mas enfim, estou aqui.
+
+Minha namorada viajou pra praia. Espero que esteja tudo bem com ela, e que seja uam boa viagem. No final das contas, me peguei pensando em como o fim de semana que está por vir pode ser bem tenebroso hahah
+
+Mas um dia de cada vez né. O lado bom é que o curso do Erick Wendel está cada vez mais fácil de entender
+
+### Dia 6 - 21/01/2025
+
+Acordei e não consegui me concentrar em nada na meditação. Ainda por cima, fiquei preocupado porque o irmão de minha namorada está tendo comportamentos muito esquisitos. 
+
+
+
+### Dia 7 - 22/01/2025
+
+Tive que ir dormir um pouco além do horário planejado para que eu pudesse adiantar algumas coisas do Beach Menu. 
