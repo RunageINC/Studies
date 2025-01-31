@@ -8,6 +8,14 @@
 [[Prototype Chain]]
 [[Functions]]
 [[Symbol]]
+[[Reflect (Reflections)]]
+[[Proxy]]
+[[Regex]]
+
+#### Patterns
+[[Fluent API]]
+[[Facade]]
+
 ### Node
 [[Node]]
 
@@ -17,7 +25,7 @@
 
 ### Libs
 chalk - Lib de impressão bonitinha no terminal
-chalk-table
+chalk-table - impressão bonitinha de tabelas
 
 
 ### Frameworks

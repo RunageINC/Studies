@@ -1,0 +1,23 @@
+[
+  {
+    "id": "bba89099-2ac8-476b-9638-13cd94cfd8d9",
+    "name": "Explorer",
+    "available": true,
+    "releaseYear": 2023,
+    "gasAvailable": true
+  },
+  {
+    "id": "d930c1bf-b277-4649-a718-509cf9e63bd5",
+    "name": "XTS",
+    "available": true,
+    "releaseYear": 2023,
+    "gasAvailable": true
+  },
+  {
+    "id": "6e503a86-fbc7-4ec5-b09e-c66e09ee9f3f",
+    "name": "ATS",
+    "available": true,
+    "releaseYear": 2024,
+    "gasAvailable": true
+  }
+]
