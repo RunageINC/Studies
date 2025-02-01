@@ -22,4 +22,11 @@ Faça apenas o escopo da task. Não precisa se adiantar para problemas imaginár
 
 Uma das coisas importantes do Clean Code no geral, e que também aplica todas as regras mencionadas são os [[SOLID Principles]].
 
+#### Padrões Criacionais
+
 [[Factory Method]]
+[[Test Data Builder]]
+
+#### Padrões Comportamentais
+
+[[Strategy]]
