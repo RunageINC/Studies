@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --grid-container: 130rem;
+  --grid-gutter: 3.2rem;
+
+  --border-radius: 0.4rem;
+
+  --font-light: 300;
+  --font-normal: 400;
+  --font-bold: 600;
+
+  --font-xs: 1.2rem;
+  --font-s: 1.4rem;
+  --font-m: 1.6rem;
+  --font-l: 1.8rem;
+  --font-xl: 2rem;
+  --font-xxl: 2.8rem;
+
+  --primary: #f231a5;
+  --secondary: #3cd3c1;
+  --main-bg: #06092b;
+  --white: #fafafa;
+  --black: #030517;
+  --light-gray: #eaeaea;
+  --gray: #8f8f8f;
+  --dark-gray: #2e2f42;
+
+  --spacing-xxs: 0.8rem;
+  --spacing-xs: 1.6rem;
+  --spacing-s: 2.4rem;
+  --spacing-m: 3.2rem;
+  --spacing-l: 4rem;
+  --spacing-xl: 4.8rem;
+  --spacing-xxl: 5.6rem;
+
+  --layers-base: 10;
+  --layers-menu: 20;
+  --layers-overlay: 30;
+  --layers-modal: 40;
+  --layers-alwaysOnTop: 50;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
