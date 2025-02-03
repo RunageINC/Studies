@@ -125,19 +125,51 @@
             }
           },
           {
-            "id": "be3aea8f01f36069",
+            "id": "b1f3845547aebbe7",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-01-31 09.22.46.excalidraw.md"
+                "file": "6 - Main Notes/Testing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-01-31 09.22.46.excalidraw"
+              "icon": "lucide-file",
+              "title": "Testing"
+            }
+          },
+          {
+            "id": "7ce93b53eb60cbfc",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Personal Projects/Projects/WebPraia/Todo.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Todo"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -294,15 +326,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "be3aea8f01f36069",
+  "active": "7ce93b53eb60cbfc",
   "lastOpenFiles": [
+    "6 - Main Notes/Testing no React.md",
+    "6 - Main Notes/Testing.md",
     "6 - Main Notes/Strategy.md",
+    "Personal Projects/Projects/WebPraia/Todo.md",
+    "Personal Projects/Projects/WebPraia/Sec.md",
+    "Excalidraw/Drawing 2025-02-01 19.39.36.excalidraw.md",
     "Excalidraw/Drawing 2025-01-31 09.22.46.excalidraw.md",
     "6 - Main Notes/Design Patterns.md",
-    "Personal Projects/Projects/WebPraia/Todo.md",
     "4 - Indexes/JavaScript.md",
     "6 - Main Notes/Reflect (Reflections).md",
-    "Personal Projects/Projects/WebPraia/Sec.md",
     "6 - Main Notes/Builder.md",
     "6 - Main Notes/Facade.md",
     "6 - Main Notes/Method Chaining.md",
@@ -319,9 +354,6 @@
     "Personal Projects/Project Ideas.md",
     "6 - Main Notes/Regex.md",
     "Personal Projects/Insights/Main.md",
-    "Personal Projects/Estudos (com Sourcing) + Toolings.md",
-    "Personal Projects/Insights/My Wishlist.md",
-    "1 - Rough Notes & Ideas/Studies.md",
     "Personal Projects/Projects/Nuzlocke/Fire Red",
     "Personal Projects/Projects/Nuzlocke",
     "Untitled",
