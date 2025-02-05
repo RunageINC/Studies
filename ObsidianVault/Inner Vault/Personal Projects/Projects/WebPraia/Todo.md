@@ -12,6 +12,10 @@ kanban-plugin: board
 	- [ ] imagem
 	- [ ] descrição
 - [ ] [BACK END] Adicionar a lógica de proibir alcool para menores de 18
+- [ ] [FRONT END] - Ao dar refresh o pedido não apareceu
+- [ ] [FRONT END] - Ver detalhes
+- [ ] [FRONT END] - Quebra de layout em celulares menores do que a tela do monitor
+- [ ] [FRONT END] - Deixar mais próximo do ifood o card
 
 
 ## Do

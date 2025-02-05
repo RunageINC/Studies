@@ -1,6 +1,7 @@
 import ContextStrategy from "./src/base/contextStrategy.js";
 import MongoDBStrategy from "./src/strategies/mongoDBStrategy.js";
 import PostgresStrategy from "./src/strategies/postgresStrategy.js";
+import { LOG, TRANSACTION } from "./constants.js";
 
 import {
   POSTGRES_CONNECTION_STRING,
@@ -17,7 +18,10 @@ const mongoDBContext = new ContextStrategy(
 await postgresContext.connect();
 await mongoDBContext.connect();
 
-import { LOG, TRANSACTION } from "./constants.js";
+const contextTypes = {
+  [LOG]: mongoDBContext,
+  [TRANSACTION]: postgresContext,
+};
 
 const data = [
   {
@@ -29,11 +33,6 @@ const data = [
     type: LOG,
   },
 ];
-
-const contextTypes = {
-  [LOG]: mongoDBContext,
-  [TRANSACTION]: postgresContext,
-};
 
 for (const { type, name } of data) {
   const context = contextTypes[type];
