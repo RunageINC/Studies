@@ -30,3 +30,8 @@ Uma das coisas importantes do Clean Code no geral, e que também aplica todas as
 #### Padrões Comportamentais
 
 [[Strategy]]
+[[Observer]]
+
+## Como escolher?
+
+Não existe uma solução universal e nem uma tabela de de-para com padrões de projeto. O ideal é primeiro analisar o problema, e depois pensar na solução.
