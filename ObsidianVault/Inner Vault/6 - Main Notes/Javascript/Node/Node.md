@@ -9,3 +9,8 @@ const assert = require("assert:node");
 ```
 
 #### OBS: npx garante que o comando será executado de dentro da pasta node_modules.
+
+Podemos passar uma flag para solucionar diretórios. Isso é muito útil quando temos um projeto que chama uma lib de outro projeto, por exemplo uma dependência interna ou módulos distintos em pastas distintas (simulando um monorepo).
+
+Dessa forma, ao rodar o node, basta passar a flag `--experimental-specifier-resolution=node`.
+

@@ -8,23 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "857177ef8e63e535",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal Projects/Diário 75 dias.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Diário 75 dias"
-            }
-          },
-          {
             "id": "7a2453f610f15e93",
             "type": "leaf",
             "pinned": true,
@@ -48,30 +31,6 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "Reflect (Reflections)"
-            }
-          },
-          {
-            "id": "eb3b1d714a06a57e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Factory Method.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Factory Method"
             }
           },
           {
@@ -151,19 +110,79 @@
             }
           },
           {
-            "id": "8b7bbabdbc3af3d8",
+            "id": "dea58466ca423c52",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.4"
+                "file": "6 - Main Notes/Streams.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "icon": "lucide-file",
+              "title": "Streams"
+            }
+          },
+          {
+            "id": "d36cf0e9b1cd3f10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Symbol.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Symbol"
+            }
+          },
+          {
+            "id": "c88ce793a49b6eb4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-01-31 09.22.46.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-01-31 09.22.46.excalidraw"
+            }
+          },
+          {
+            "id": "be874bbe7e3ed262",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-17 20.33.46.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-17 20.33.46.excalidraw"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -195,7 +214,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Dependency Inje",
+                "query": "Stream",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,11 +235,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 244.5
   },
   "right": {
     "id": "ec033ef36d65152e",
@@ -320,52 +340,52 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8b7bbabdbc3af3d8",
+  "active": "be874bbe7e3ed262",
   "lastOpenFiles": [
-    "Personal Projects/Projects/WebPraia/Todo.md",
-    "6 - Main Notes/Untitled 2.md",
-    "Personal Projects/Projects/WebPraia/Sec.md",
-    "Personal Projects/Projects/WebPraia/WebPraia flow.excalidraw.md",
-    "Personal Projects/Projects/WebPraia/Web Praia.excalidraw.md",
-    "6 - Main Notes/Observer.md",
-    "6 - Main Notes/Strategy.md",
-    "6 - Main Notes/Reflect (Reflections).md",
-    "6 - Main Notes/Factory Method.md",
-    "4 - Indexes/JavaScript.md",
+    "6 - Main Notes/Streams.md",
+    "6 - Main Notes/Javascript/Node/Node.md",
+    "6 - Main Notes/Untitled 3.md",
     "6 - Main Notes/Design Patterns.md",
-    "6 - Main Notes/Untitled 1.md",
-    "6 - Main Notes/Testing.md",
-    "6 - Main Notes/Testing no React.md",
-    "Excalidraw/Drawing 2025-02-01 19.39.36.excalidraw.md",
+    "6 - Main Notes/O que é necessário.md",
+    "6 - Main Notes/Symbol.md",
+    "Excalidraw/Drawing 2025-02-17 20.33.46.excalidraw.md",
+    "Excalidraw/Drawing 2025-02-18 15.12.46.excalidraw.md",
     "Excalidraw/Drawing 2025-01-31 09.22.46.excalidraw.md",
-    "6 - Main Notes/Builder.md",
-    "6 - Main Notes/Facade.md",
-    "6 - Main Notes/Method Chaining.md",
-    "6 - Main Notes/Spring.md",
-    "6 - Main Notes/Knowledge.md",
-    "6 - Main Notes/Untitled.md",
-    "6 - Main Notes/N-Layer Architecture.md",
-    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
-    "Excalidraw/Drawing 2025-01-28 18.14.23.excalidraw.md",
-    "Personal Projects/Projects/Nuzlocke/Fire Red",
-    "Personal Projects/Projects/Nuzlocke",
-    "Untitled",
+    "6 - Main Notes/entre 17500 e 17000.md",
+    "Excalidraw/Drawing 2025-02-12 11.36.21.excalidraw.md",
+    "Excalidraw/Drawing 2025-01-13 10.51.34.excalidraw.md",
+    "Persistence.canvas",
     "Pasted image 20250115085124.png",
-    "7 - Kanban/Untitled.canvas",
-    "Pasted Image 20250113122545_305.png",
     "Pasted Image 20250113120437_280.png",
     "Pasted Image 20250113120407_276.png",
     "Pasted Image 20250113120149_274.png",
+    "6 - Main Notes/Javascript/NPM.md",
+    "6 - Main Notes/Reflect (Reflections).md",
+    "6 - Main Notes/Observer.md",
+    "Pasted image 20250214083751.png",
+    "Screenshot 2025-02-14 at 08.37.35.png",
+    "Screenshot 2025-02-14 at 08.36.54.png",
+    "Pasted image 20250214083117.png",
+    "Pasted image 20250214083051.png",
+    "Pasted image 20250214082945.png",
+    "4 - Indexes/JavaScript.md",
+    "6 - Main Notes/Regex.md",
+    "Personal Projects/Diário 75 dias.md",
+    "Excalidraw/Drawing 2025-02-09 11.43.23.excalidraw.md",
+    "Personal Projects/Cover Letter - Fullstack.md",
+    "6 - Main Notes/Big O Time Complexity.md",
+    "6 - Main Notes/Arrays.md",
+    "Excalidraw/Drawing 2025-02-06 16.13.31.excalidraw.md",
+    "6 - Main Notes/Factory Method.md",
+    "6 - Main Notes/Javascript/TypeScript.md",
+    "Personal Projects/Estudos (com Sourcing) + Toolings.md",
+    "Personal Projects/Projects/Nuzlocke/Fire Red",
+    "Personal Projects/Projects/Nuzlocke",
+    "Untitled",
+    "7 - Kanban/Untitled.canvas",
     "Excalidraw/Meli/TLV Ecossystem.excalidraw",
-    "Excalidraw/Meli/TLV Ecossystem.png",
-    "Persistence.canvas",
-    "Imgs&Assets/Bean destroy cycle.png",
-    "Imgs&Assets/Bean Lifecycle.png",
     "Personal Projects/Projects/Study",
     "Personal Projects/WebPraia",
-    "Excalidraw/Web Praia.excalidraw.png",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "Personal Projects/Projects/WebPraia",
     "6 - Main Notes/Data Communication Models/Untitled",
     "Untitled.canvas",
