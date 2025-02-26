@@ -8,181 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a2453f610f15e93",
+            "id": "8ea368b6dc6b6296",
             "type": "leaf",
             "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Reflect (Reflections).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Reflect (Reflections)"
-            }
-          },
-          {
-            "id": "194d9b4eb777919d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Observer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Observer"
-            }
-          },
-          {
-            "id": "3bf4524af70a84ac",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Strategy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Strategy"
-            }
-          },
-          {
-            "id": "43ba5c8152f2f269",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Design Patterns.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Design Patterns"
-            }
-          },
-          {
-            "id": "dea58466ca423c52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Streams.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Streams"
-            }
-          },
-          {
-            "id": "d36cf0e9b1cd3f10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Symbol.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Symbol"
-            }
-          },
-          {
-            "id": "c88ce793a49b6eb4",
-            "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-01-31 09.22.46.excalidraw.md"
+                "file": "Excalidraw/Drawing 2025-02-24 15.13.33.excalidraw.md"
               },
+              "pinned": true,
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-01-31 09.22.46.excalidraw"
+              "title": "Drawing 2025-02-24 15.13.33.excalidraw"
             }
           },
           {
-            "id": "be874bbe7e3ed262",
+            "id": "70cbce5c1db2d171",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-02-17 20.33.46.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-17 20.33.46.excalidraw"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Stream",
+                "query": "Videos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -235,8 +85,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -340,17 +189,29 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "be874bbe7e3ed262",
+  "active": "70cbce5c1db2d171",
   "lastOpenFiles": [
-    "6 - Main Notes/Streams.md",
-    "6 - Main Notes/Javascript/Node/Node.md",
+    "Personal Projects/Projects/FFTA2 Board.md",
+    "Personal Projects/Projects/FFTA2 Builder Entity Definition.md",
+    "Excalidraw/Drawing 2025-02-25 20.14.04.excalidraw.md",
+    "6 - Main Notes/Untitled 2.md",
     "6 - Main Notes/Untitled 3.md",
-    "6 - Main Notes/Design Patterns.md",
-    "6 - Main Notes/O que é necessário.md",
-    "6 - Main Notes/Symbol.md",
-    "Excalidraw/Drawing 2025-02-17 20.33.46.excalidraw.md",
-    "Excalidraw/Drawing 2025-02-18 15.12.46.excalidraw.md",
+    "6 - Main Notes/Untitled 1.md",
+    "6 - Main Notes/Untitled.md",
+    "Excalidraw/Drawing 2025-02-24 15.13.33.excalidraw.md",
+    "Excalidraw/Drawing 2025-02-23 13.33.28.excalidraw.md",
     "Excalidraw/Drawing 2025-01-31 09.22.46.excalidraw.md",
+    "6 - Main Notes/Symbol.md",
+    "6 - Main Notes/Streams.md",
+    "6 - Main Notes/Strategy.md",
+    "6 - Main Notes/Reflect (Reflections).md",
+    "6 - Main Notes/Observer.md",
+    "6 - Main Notes/Design Patterns.md",
+    "Personal Projects/Estudos (com Sourcing) + Toolings.md",
+    "Excalidraw/Drawing 2025-02-17 20.33.46.excalidraw.md",
+    "6 - Main Notes/Javascript/Node/Node.md",
+    "6 - Main Notes/O que é necessário.md",
+    "Excalidraw/Drawing 2025-02-18 15.12.46.excalidraw.md",
     "6 - Main Notes/entre 17500 e 17000.md",
     "Excalidraw/Drawing 2025-02-12 11.36.21.excalidraw.md",
     "Excalidraw/Drawing 2025-01-13 10.51.34.excalidraw.md",
@@ -360,8 +221,6 @@
     "Pasted Image 20250113120407_276.png",
     "Pasted Image 20250113120149_274.png",
     "6 - Main Notes/Javascript/NPM.md",
-    "6 - Main Notes/Reflect (Reflections).md",
-    "6 - Main Notes/Observer.md",
     "Pasted image 20250214083751.png",
     "Screenshot 2025-02-14 at 08.37.35.png",
     "Screenshot 2025-02-14 at 08.36.54.png",
@@ -369,16 +228,6 @@
     "Pasted image 20250214083051.png",
     "Pasted image 20250214082945.png",
     "4 - Indexes/JavaScript.md",
-    "6 - Main Notes/Regex.md",
-    "Personal Projects/Diário 75 dias.md",
-    "Excalidraw/Drawing 2025-02-09 11.43.23.excalidraw.md",
-    "Personal Projects/Cover Letter - Fullstack.md",
-    "6 - Main Notes/Big O Time Complexity.md",
-    "6 - Main Notes/Arrays.md",
-    "Excalidraw/Drawing 2025-02-06 16.13.31.excalidraw.md",
-    "6 - Main Notes/Factory Method.md",
-    "6 - Main Notes/Javascript/TypeScript.md",
-    "Personal Projects/Estudos (com Sourcing) + Toolings.md",
     "Personal Projects/Projects/Nuzlocke/Fire Red",
     "Personal Projects/Projects/Nuzlocke",
     "Untitled",

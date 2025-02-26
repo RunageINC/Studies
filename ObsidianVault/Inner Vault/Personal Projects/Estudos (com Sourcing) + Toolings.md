@@ -214,6 +214,12 @@
 - [ ] 
 
 ## Articles
+
+### Not Categorized yet
+- [ ] https://www.linkedin.com/posts/erickwendel_webai-gemini-webdev-activity-7298323054227578880-jwa7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABsWie4Bpnx8cliLntkx7-e6s-5jQp6YIJc
+- [ ] https://www.linkedin.com/posts/erickwendel_o-melhor-framework-para-criar-ai-apps-em-activity-7297977990880124936-53xM/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABsWie4Bpnx8cliLntkx7-e6s-5jQp6YIJc
+- [ ] https://www.linkedin.com/posts/aishwarya-pani-63a476167_sqltop10-ugcPost-7296365563860197376-la2Z/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABsWie4Bpnx8cliLntkx7-e6s-5jQp6YIJc
+
 ### Self Improvement
 - [ ] [Attention is all you need](https://arxiv.org/abs/1706.03762)
 ### IT
