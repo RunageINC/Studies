@@ -10,3 +10,13 @@ const readable = Readable({
     this.push(null);
   },
 });
+
+//sempre a saída -> imprimir, salvar ou ignorar
+const writable = Writable({
+  write(chunk, encoding, cb) {
+    console.log("msg", chunk.toString());
+    cb();
+  },
+});
+
+readable.pipe(writable);

@@ -9,6 +9,13 @@ kanban-plugin: board
 - [ ] Finish Datamining for FFTA2 Builder
 - [ ] Finish other endpoints (races, jobs, maps, items, clans, builder)
 - [ ] Add options to menu as collapsible components
+- [ ] Finish mapping for
+	- [ ] Gria
+	- [ ] Seeq
+	- [ ] Moogle
+	- [ ] Viera
+	- [ ] Nu Mou
+	- [ ] Bangaa
 
 
 ## In Progress
