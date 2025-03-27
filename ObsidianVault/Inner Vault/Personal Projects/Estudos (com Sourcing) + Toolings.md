@@ -678,3 +678,63 @@
 - [ ] [Coding Challenges](https://codingchallenges.fyi/challenges/challenge-docker/)
 - [ ] [System Design Newsletter](https://newsletter.systemdesign.one/)
 - [ ] [Roadmap SH](https://roadmap.sh/)
+
+
+##### TO ORGANIZE
+
+How to master React software design and architecture.  
+  
+Read these 10 articles:  
+  
+  
+Application Structure & Architecture:  
+  
+1️⃣ 10 ways to better organize and design your React Application:  
+↳ [https://buff.ly/PfQxLnO](https://buff.ly/PfQxLnO)  
+  
+2️⃣ Pin your dependencies in package.json to increase your project's health:  
+↳ [https://buff.ly/cccN3G3](https://buff.ly/cccN3G3)  
+  
+3️⃣ State Management & Data Fetching Libraries in React:  
+↳ [https://buff.ly/kPw0JkY](https://buff.ly/kPw0JkY)  
+  
+4️⃣ React Component Mental Models:  
+↳ [https://buff.ly/RveOrSw](https://buff.ly/RveOrSw)  
+  
+5️⃣ The styling dilemma in React:  
+↳ [https://buff.ly/RANGwAu](https://buff.ly/RANGwAu)  
+  
+  
+Component Design:  
+  
+6️⃣ 15 React Component Principles & Best Practices for Better Software Architecture & Design:  
+↳ [https://bit.ly/3Z4hmRp](https://bit.ly/3Z4hmRp)  
+  
+7️⃣ How to use Reducer in React for better State Management: 2 effective ways for simpler design and architecture:  
+↳ [https://bit.ly/3AranYS](https://bit.ly/3AranYS)  
+  
+  
+Performance:  
+  
+8️⃣ 7 practical tips on performance optimizations in React applications:  
+↳ [https://bit.ly/4eywavY](https://bit.ly/4eywavY)  
+  
+  
+Testing:  
+  
+9️⃣ 9 React Testing Best Practices for Better Design and Quality of Your Tests:  
+↳ [https://bit.ly/3XKsjoV](https://bit.ly/3XKsjoV)  
+  
+  
+Tooling:  
+  
+🔟 2 must-have tools in your React Project for having a consistent codebase:  
+↳ [https://bit.ly/40kkBEY](https://bit.ly/40kkBEY)  
+  
+  
+---  
+  
+👋 Join 20,391+ software engineers learning JavaScript, Software Design, and Architecture:  
+[https://buff.ly/YjTijbJ](https://buff.ly/YjTijbJ)  
+  
+-----

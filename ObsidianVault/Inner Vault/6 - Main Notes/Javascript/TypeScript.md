@@ -1,3 +1,6 @@
+
+#TypeScript
+
 Nasceu como um superset, um conjunto de ferramentas em cima do javascript para adicionar a [[Tipagem estática]] em cima de uma linguagem de [[Tipagem dinâmica]].
 
 Uma das possibilidades da tipagem estática dentro do TypeScript é a utilização de interfaces para definir quais serão os tipos de um elemento:

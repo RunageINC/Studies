@@ -1,4 +1,6 @@
 
+#JavaScript
+
 Default Exports são exports utilizados com a keyword _default_, possibilitando nomear o arquivo importado no momento da importação, e não na exportação:
 
 ```javascript

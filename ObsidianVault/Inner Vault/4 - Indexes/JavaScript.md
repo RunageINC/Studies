@@ -1,4 +1,4 @@
-### Core
+## Core
 [[Javascript - Historia]]
 [[Strict mode]]
 [[Call Stack]]
@@ -11,36 +11,41 @@
 [[Reflect (Reflections)]]
 [[Proxy]]
 [[Regex]]
-
-#### Patterns
-[[Fluent API]]
-[[Facade]]
-
-### Node
-[[Node]]
-[[NPM]]
-
-### Funções
+[[Callbacks]]
 [[IFEE]]
 [[Generator Functions]]
 
-### Libs
+### Patterns
+[[Fluent API]]
+[[Facade]]
+
+## Node
+[[Node]]
+[[NPM]]
+
+## Crypto
+[[Hash]]
+
+### Frameworks
+[[NestJS]]
+
+## Libs
 chalk - Lib de impressão bonitinha no terminal
 chalk-table - impressão bonitinha de tabelas
 
-
-### Frameworks
+## Servers
 [[Fastify]]
+[[Express]]
 
-### [[Compilers]]
+## [[Compilers]]
 [[Babel]]
 
-### [[Bundlers]]
+## [[Bundlers]]
 [[Webpack]]
 
-### Supersets
+## Supersets
 [[TypeScript]]
 
 
-#### Links:
+### Links:
 https://github.com/denysdovhan/wtfjs

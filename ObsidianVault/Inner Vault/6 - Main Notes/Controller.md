@@ -14,4 +14,3 @@ public class AuthorController
 ```
 
 When `@RequestMapping` is on controller level, it will apply the mapping for all the methods. 
-

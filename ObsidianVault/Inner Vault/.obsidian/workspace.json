@@ -4,35 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "51a952afd9482899",
+        "id": "4e381a3fa35c5674",
         "type": "tabs",
         "children": [
           {
-            "id": "8ea368b6dc6b6296",
+            "id": "0e5139deecfe6f1d",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-02-24 15.13.33.excalidraw.md"
+                "file": "6 - Main Notes/Javascript/Node/NestJS/NestJS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "pinned": true,
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-24 15.13.33.excalidraw"
-            }
-          },
-          {
-            "id": "70cbce5c1db2d171",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "NestJS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Videos",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 210.5
   },
   "right": {
     "id": "ec033ef36d65152e",
@@ -151,24 +150,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal.md"
+                "file": "6 - Main Notes/Javascript/Node/NestJS/NestJS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Personal"
+              "title": "Outline of NestJS"
             }
           },
           {
-            "id": "f546823c85015b9f",
+            "id": "cd4f7d8bcd6680d5",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -189,45 +191,49 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "70cbce5c1db2d171",
+  "active": "0e5139deecfe6f1d",
   "lastOpenFiles": [
-    "Personal Projects/Projects/FFTA2 Board.md",
-    "Personal Projects/Projects/FFTA2 Builder Entity Definition.md",
-    "Excalidraw/Drawing 2025-02-25 20.14.04.excalidraw.md",
-    "6 - Main Notes/Untitled 2.md",
-    "6 - Main Notes/Untitled 3.md",
-    "6 - Main Notes/Untitled 1.md",
-    "6 - Main Notes/Untitled.md",
-    "Excalidraw/Drawing 2025-02-24 15.13.33.excalidraw.md",
-    "Excalidraw/Drawing 2025-02-23 13.33.28.excalidraw.md",
-    "Excalidraw/Drawing 2025-01-31 09.22.46.excalidraw.md",
-    "6 - Main Notes/Symbol.md",
-    "6 - Main Notes/Streams.md",
-    "6 - Main Notes/Strategy.md",
-    "6 - Main Notes/Reflect (Reflections).md",
-    "6 - Main Notes/Observer.md",
-    "6 - Main Notes/Design Patterns.md",
+    "6 - Main Notes/Javascript/Node/NestJS/TypeORM and Mongoose.md",
+    "6 - Main Notes/Javascript/Node/NestJS/Services.md",
+    "6 - Main Notes/Javascript/Node/NestJS/Controller.md",
+    "6 - Main Notes/Javascript/Node/NestJS/Custom Decorators.md",
+    "6 - Main Notes/Javascript/Node/NestJS/NestJS.md",
+    "6 - Main Notes/Javascript/Node/NestJS/Repositories.md",
     "Personal Projects/Estudos (com Sourcing) + Toolings.md",
-    "Excalidraw/Drawing 2025-02-17 20.33.46.excalidraw.md",
-    "6 - Main Notes/Javascript/Node/Node.md",
-    "6 - Main Notes/O que é necessário.md",
-    "Excalidraw/Drawing 2025-02-18 15.12.46.excalidraw.md",
-    "6 - Main Notes/entre 17500 e 17000.md",
-    "Excalidraw/Drawing 2025-02-12 11.36.21.excalidraw.md",
-    "Excalidraw/Drawing 2025-01-13 10.51.34.excalidraw.md",
-    "Persistence.canvas",
-    "Pasted image 20250115085124.png",
-    "Pasted Image 20250113120437_280.png",
-    "Pasted Image 20250113120407_276.png",
-    "Pasted Image 20250113120149_274.png",
+    "Personal Projects/Projects/FFTA2 Board.md",
+    "7 - Kanban/Studies Kanban.md",
+    "7 - Kanban/Todo Webpraia.md",
+    "6 - Main Notes/Untitled Kanban.md",
+    "Excalidraw/Drawing 2025-03-24 20.20.47.excalidraw.md",
+    "6 - Main Notes/Javascript/Node/NestJS/Migrations.md",
+    "6 - Main Notes/Javascript/Webpack.md",
+    "6 - Main Notes/Deployments.md",
+    "6 - Main Notes/React/Vite.md",
+    "6 - Main Notes/Javascript/TypeScript.md",
+    "6 - Main Notes/Javascript/Strict mode.md",
     "6 - Main Notes/Javascript/NPM.md",
-    "Pasted image 20250214083751.png",
-    "Screenshot 2025-02-14 at 08.37.35.png",
-    "Screenshot 2025-02-14 at 08.36.54.png",
-    "Pasted image 20250214083117.png",
-    "Pasted image 20250214083051.png",
-    "Pasted image 20250214082945.png",
-    "4 - Indexes/JavaScript.md",
+    "6 - Main Notes/Javascript/Memory Heap.md",
+    "6 - Main Notes/Javascript/Library - dotenv.md",
+    "6 - Main Notes/Javascript/Default Exports vs Named Exports.md",
+    "6 - Main Notes/Javascript/Callbacks.md",
+    "6 - Main Notes/Javascript/Call Stack.md",
+    "6 - Main Notes/Javascript/Node/nvm.md",
+    "6 - Main Notes/Javascript/Node/Node.md",
+    "6 - Main Notes/Javascript/Node/NestJS/Untitled",
+    "6 - Main Notes/Database",
+    "6 - Main Notes/Cyber Security",
+    "6 - Main Notes/Javascript/Node/NestJS",
+    "Pasted image 20250321221824.png",
+    "Imgs&Assets/Screenshot 2025-02-14 at 08.37.35.png",
+    "Imgs&Assets/Screenshot 2025-02-14 at 08.36.54.png",
+    "Imgs&Assets/Screenshot 2025-02-06 at 08.38.41.png",
+    "Persistence.canvas",
+    "Imgs&Assets/Pasted image 20250115085124.png",
+    "Imgs&Assets/Pasted image 20250316121439.png",
+    "Imgs&Assets/Pasted image 20250214083751.png",
+    "Imgs&Assets/Pasted image 20250214083117.png",
+    "Imgs&Assets/Pasted image 20250214082945.png",
+    "Imgs&Assets/Pasted image 20250214083051.png",
     "Personal Projects/Projects/Nuzlocke/Fire Red",
     "Personal Projects/Projects/Nuzlocke",
     "Untitled",
@@ -235,11 +241,7 @@
     "Excalidraw/Meli/TLV Ecossystem.excalidraw",
     "Personal Projects/Projects/Study",
     "Personal Projects/WebPraia",
-    "Personal Projects/Projects/WebPraia",
-    "6 - Main Notes/Data Communication Models/Untitled",
     "Untitled.canvas",
-    "6 - Main Notes/Java",
-    "Personal Projects/Projects",
     "6 - Main Notes/Meli/Info360 Changes.canvas",
     "2 - Source Material/YouTube/Learning Process/Process.canvas",
     "Excalidraw/Meli/Untitled.canvas"
