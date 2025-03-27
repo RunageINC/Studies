@@ -1,0 +1,12 @@
+
+- Serratus Anterior
+	- Scapular pushups - https://www.youtube.com/watch?v=_HAEwuGgBSA&ab_channel=KevinZhang 4:17 + 5:07
+	- Any pushup variation goes well
+- Rotator Cuff
+	- External rotation with the shoulder https://www.youtube.com/watch?v=_HAEwuGgBSA&ab_channel=KevinZhang 6:30
+- Brachiallis
+	- neutral position for wrists
+- Forearms
+	- dead grip
+- Heart
+	- Cardio

@@ -1,3 +1,6 @@
+
+#JavaScript
+
 Uma nova diretiva adicionada em 2015 com objetivo de evitar erros semânticos silenciosos da linguagem.
 
 Usado por transpiladores como [[TypeScript]] e [[Babel]].

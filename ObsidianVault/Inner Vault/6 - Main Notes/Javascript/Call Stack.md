@@ -1,3 +1,6 @@
+
+#JavaScript
+
 Uma pilha de operações onde é armazenada a sequência de ações que um programa vai executar, linha por linha. 
 
 Dá pra imaginar um callback chamando outro callback que chama outro, e por assim vai, de forma ordenada utilizando a estrutura de pilha FILO (First In Last Out).

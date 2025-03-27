@@ -1,5 +1,7 @@
-Gerenciador de pacotes do java.
 
+#JavaScript
+
+Gerenciador de pacotes do java.
 
 `npm install` -> Olha pra package.json. Pode acontecer de existirem pacotes que funcionavam antes e não funcionam mais.
 `npm ci` -> Olha pra package-lock.json, certificando q os pacotes q serão instalados são os que já funcionaram.

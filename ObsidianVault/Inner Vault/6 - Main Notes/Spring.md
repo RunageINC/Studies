@@ -177,7 +177,7 @@ However, for RESTful API's it is not very common, as it kind of kills the RESTfu
 
 ### Data Modelling
 
-It uses [[JPA]] as a default modelling, and it uses the [[Repository]] pattern to access data from the database. To expose it on the MVC pattern, Spring uses [[Controller]]s
+It uses [[JPA]] as a default modelling, and it uses the [[Repository]] pattern to access data from the database. To expose it on the MVC pattern, Spring uses [[6 - Main Notes/Controller]]s
 
 ## Thymeleaf
 

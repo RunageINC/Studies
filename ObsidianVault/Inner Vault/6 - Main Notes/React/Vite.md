@@ -1,3 +1,6 @@
+
+#React
+
 Uma lib para criação de apps [[6 - Main Notes/React/React|React]] de vários tipos. Utilizando o Node, facilita a criação de uma app em [[6 - Main Notes/React/React|React]] em vários aspectos, como por exemplo adicionando o TypeScript já nativamente para a app.
 
 Utiliza dos ECMA Script Modules para criar os arquivos JS. Para criar um projeto o comando é:

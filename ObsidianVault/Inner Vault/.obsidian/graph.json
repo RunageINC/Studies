@@ -3,12 +3,12 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
+  "hideUnresolved": false,
   "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"6 - Main Notes/Meli\"  ",
+      "query": "tag: #TypeScript",
       "color": {
         "a": 1,
         "rgb": 35056
@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "path:\"6 - Main Notes/Javascript\"  ",
+      "query": "tag: #JavaScript  ",
       "color": {
         "a": 1,
         "rgb": 12750336
@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 16747909
       }
+    },
+    {
+      "query": "tag: #NestJS  ",
+      "color": {
+        "a": 1,
+        "rgb": 15749505
+      }
     }
   ],
   "collapse-display": false,
@@ -60,6 +67,6 @@
   "repelStrength": 9.98860677083333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.14384096850498768,
-  "close": true
+  "scale": 1.3425060966541236,
+  "close": false
 }
