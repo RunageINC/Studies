@@ -55,6 +55,13 @@
         "a": 1,
         "rgb": 15749505
       }
+    },
+    {
+      "query": "tag: #AWS",
+      "color": {
+        "a": 1,
+        "rgb": 16768645
+      }
     }
   ],
   "collapse-display": false,
@@ -67,6 +74,6 @@
   "repelStrength": 9.98860677083333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.3425060966541236,
-  "close": false
+  "scale": 1.9389177585055906,
+  "close": true
 }

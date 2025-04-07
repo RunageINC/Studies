@@ -1,4 +1,6 @@
 
+#General
+
 Tags: [[Internet]], [[Web Development]]
 
 The internet can be described as a bunch of devices connected with each other. 
