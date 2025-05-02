@@ -1,3 +1,6 @@
+
+#General 
+
 Padrão criacional para criar objetos complexos de forma simples. 
 
 Faz parte do padrão de Fluent Interface ou [[Fluent API]], onde utiliza de [[Method Chaining]] em seu processo de criação de objetos.

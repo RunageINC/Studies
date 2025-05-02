@@ -15,10 +15,10 @@
       }
     },
     {
-      "query": "path:\"6 - Main Notes/Node\"  ",
+      "query": "tag: #Node",
       "color": {
         "a": 1,
-        "rgb": 37905
+        "rgb": 652837
       }
     },
     {
@@ -46,7 +46,7 @@
       "query": "path:\"6 - Main Notes/System Design\"  ",
       "color": {
         "a": 1,
-        "rgb": 16747909
+        "rgb": 12748287
       }
     },
     {
@@ -57,10 +57,17 @@
       }
     },
     {
-      "query": "tag: #AWS",
+      "query": "tag: #Testing",
       "color": {
         "a": 1,
-        "rgb": 16768645
+        "rgb": 16775792
+      }
+    },
+    {
+      "query": "tag: #General",
+      "color": {
+        "a": 1,
+        "rgb": 8037119
       }
     }
   ],
@@ -74,6 +81,6 @@
   "repelStrength": 9.98860677083333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.9389177585055906,
-  "close": true
+  "scale": 1.7110574182422016,
+  "close": false
 }

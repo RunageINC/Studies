@@ -1,3 +1,6 @@
+
+#CyberSecurity
+
 Salt is is a random value added to data (typically passwords) together with hashing. The primary purpose of a salt is to make it harder for attackers to use **precomputed attacks**, such as [[Rainbow Table Attack]], to crack hashed passwords. The salt can be prepended or appended to a hash.
 
 It can be generated through a series of ways and can be stored together with the password.

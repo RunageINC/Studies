@@ -1,3 +1,6 @@
+
+#Testing 
+
 Também conhecido como nyc nos pacotes de instalação. É um pacote [[Node]] de [[Coverage]] de [[E2E Testing]] que garante que os testes estão cumprindo uma métrica mínima de cobertura.
 
 É possível gerar um report visual criando um arquivo `.nycrc.json` na raíz do projeto. Após isso, quando executamos o report de coverage, uma nova pasta é gerada chamada *coverage*, contendo todos os formatos especificados no json:

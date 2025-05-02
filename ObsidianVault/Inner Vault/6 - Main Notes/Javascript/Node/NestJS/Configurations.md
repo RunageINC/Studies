@@ -1,4 +1,6 @@
 
+#NestJS 
+
 For NestJS configurations, there's a lib that we can use for this to work: _@nestjs/config_.
 
 This lib includes another lib called `dotenv` ([[Library - dotenv]]).  This is a lib that is commonly used across many different projects on JavaScript ecosystem. Its goal is to put together a list of different environment variables that exists on the machine, and help with compatibility across multiple OS.

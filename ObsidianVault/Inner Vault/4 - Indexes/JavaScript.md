@@ -1,3 +1,6 @@
+
+#JavaScript 
+
 ## Core
 [[Javascript - Historia]]
 [[Strict mode]]
@@ -32,6 +35,7 @@
 ## Libs
 chalk - Lib de impressão bonitinha no terminal
 chalk-table - impressão bonitinha de tabelas
+[[Library - dotenv]]
 
 ## Servers
 [[Fastify]]
