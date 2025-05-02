@@ -1,3 +1,6 @@
+
+#JavaScript 
+
 O tipo Symbol é um tipo primitivo. É basicamente um dado privado para acesso direto, onde uma chave única é criada para aquela propriedade (evitando também a colisão de nomes de variáveis). Também são muito utilizados para esconder dados e implementações privadas, já que não são enumerados por padrão nos loopings.
 
 Observe o caso abaixo:

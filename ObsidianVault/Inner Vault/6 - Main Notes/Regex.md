@@ -1,3 +1,6 @@
+
+#General 
+
 Usado para processar textos a partir de padrões. Muito utilizado para replacement em palavras e comparações. 
 
 Esse conceito está presente em basicamente todos os lugares, desde API's a IDE's. 

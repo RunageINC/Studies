@@ -1,3 +1,6 @@
+
+#CyberSecurity 
+
 Hash is a mathematical function that converts data into a fixed-size value. Hashing functions receives an input and returns a completely different output, a sort of digital fingerprint.
 
 Very used in lots of areas such as encryption (for passwords, for example, or any personal information data).

@@ -1,3 +1,6 @@
+
+#JavaScript 
+
 Em JavaScript, assim como em Java, tudo é tratado como objeto. Nessas linguagens com esse tipo de paradigma temos muito presente o conceito de herança.
 
 Quando estamos criando uma classe por exemplo com a keyword *class*, estamos utilizando de um syntax sugar (uma maneira mais fácil de realizar aquela operação em programação. Nesse caso, criar um objeto) onde internamente essa implementação de class se torna um objeto.

@@ -1,3 +1,6 @@
+
+#Algorithms
+
 Big O is a way to categorize algorithm on time/memory requirements based on input. It generalizes the growth of your algorithm.
 
 $$

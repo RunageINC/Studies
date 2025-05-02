@@ -118,6 +118,9 @@
 - [ ] [Ferramenta para codar mais rápido - Node Red](https://www.youtube.com/watch?v=i7F_3h8bfjo)
 - [ ] 
 #### React
+
+![[Pasted image 20250501002626.png]]
+
 - [ ] [Testando nova função do React 19 - Rocketseat](https://www.youtube.com/watch?v=LVIxH7w_eUQ)
 - [ ] [React Query Complete tutorial](https://www.youtube.com/watch?v=8K1N3fE-cDs)
 - [ ] [Storybook with Tailwind + Shadcn](https://www.youtube.com/watch?v=vn-mz2iRDBs)

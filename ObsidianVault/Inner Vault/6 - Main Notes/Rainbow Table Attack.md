@@ -1,4 +1,7 @@
 
+#CyberSecurity 
+
+
 Known as Rainbow Attack as well, it is a method of password cracking that uses a special table (called "rainbow table") to crack the password hashes in a database.
 
 This rainbow table has a list of millions of different passwords so the hash is calculated to every single password and stored into this table (so it does not need to calculate again). The attacker then compares with the database of a real application to figure out what was the password's original value.
