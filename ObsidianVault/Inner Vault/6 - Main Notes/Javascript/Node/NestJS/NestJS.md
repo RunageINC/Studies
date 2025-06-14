@@ -86,4 +86,4 @@ Basically, the steps are:
 
 ## 13. [[Custom Decorators]]
 
-## 14. [[Configurations]]
+## 14. [[6 - Main Notes/Javascript/Node/NestJS/Configurations]]
