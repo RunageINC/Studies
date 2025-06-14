@@ -1,0 +1,1 @@
+Para escalar, tudo tem que ser stateless. Não se deve guardar nada em disco, sempre armazenado fora do disco rígido.

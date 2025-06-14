@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e5f8208198b36be6",
+        "id": "78da77a156c4852f",
         "type": "tabs",
         "children": [
           {
-            "id": "db6d73a093c1058b",
+            "id": "52ae0a62fc6c6c39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Projects/Estudos (com Sourcing) + Toolings.md",
+                "file": "6 - Main Notes/Git config.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Estudos (com Sourcing) + Toolings"
+              "title": "Git config"
             }
           }
         ]
@@ -84,12 +84,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 286.5
   },
   "right": {
     "id": "ec033ef36d65152e",
@@ -192,34 +191,38 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "db6d73a093c1058b",
+  "active": "52ae0a62fc6c6c39",
   "lastOpenFiles": [
-    "Pasted image 20250501002626.png",
-    "Personal Projects/Projects/WebPraia/Security.md",
-    "Personal Projects/Projects/WebPraia/WebPraia flow.excalidraw.md",
-    "Personal Projects/Projects/FFTA2 Board.md",
-    "Personal Projects/Projects/WebPraia/Todo.md",
+    "7 - Kanban/Daily Tasks.md",
+    "7 - Kanban/Todo Webpraia.md",
+    "7 - Kanban/Studies Kanban.md",
+    "Personal Projects/Personal Canva.md",
+    "Personal Projects/Movies.md",
+    "Personal Projects/Feedbacks de artigos.md",
     "Personal Projects/Estudos (com Sourcing) + Toolings.md",
-    "6 - Main Notes/Testing.md",
-    "6 - Main Notes/Testing no React.md",
-    "6 - Main Notes/N-Layer Architecture.md",
-    "6 - Main Notes/Chakras.md",
-    "6 - Main Notes/Panchamaya Kosha.md",
-    "6 - Main Notes/Os 3 Granthis.md",
-    "6 - Main Notes/Armas Mântricas para Proteção.md",
-    "6 - Main Notes/3 Shaktis.md",
-    "6 - Main Notes/Meditação e Chakras.md",
-    "6 - Main Notes/Tattva Shuddi.md",
-    "6 - Main Notes/Design System.md",
-    "6 - Main Notes/Kriya Yoga.md",
-    "6 - Main Notes/Untitled.md",
-    "6 - Main Notes/Livros meditativos.md",
-    "6 - Main Notes/AWS/AWS Cloud History.md",
-    "6 - Main Notes/Javascript/Node/NestJS/Migrations.md",
-    "1 - Rough Notes & Ideas/Freelas sites.md",
-    "4 - Indexes/Testing & Methodologies.md",
-    "1 - Rough Notes & Ideas/Chai.md",
-    "1 - Rough Notes & Ideas/Testing/Istambul.md",
+    "Personal Projects/Diário 75 dias.md",
+    "Personal Projects/Projects/YGO TF 1 Deck Builder Board.md",
+    "Personal Projects/Projects/FFTA2 Board.md",
+    "Personal Projects/Projects/FFTA2 Builder Entity Definition.md",
+    "Personal Projects/Projects/FFTA2 Guide.md",
+    "Personal Projects/Projects/WebPraia/Security.md",
+    "Personal Projects/Projects/WebPraia/Todo.md",
+    "Meridian/Configurations.md",
+    "Meridian/Deployment PRocess.md",
+    "Meridian/Retool.md",
+    "Meridian/Tasks.md",
+    "Meridian/Testing Login Phone.md",
+    "6 - Main Notes/Microservices.md",
+    "6 - Main Notes/High Order Function.md",
+    "Meridian/tRPC endpoints.md",
+    "6 - Main Notes/React/React Router DOM.md",
+    "6 - Main Notes/React/React.md",
+    "6 - Main Notes/Interface Otimista.md",
+    "Meridian/Bugs Found.md",
+    "Pasted image 20250523095623.png",
+    "Pasted image 20250514181335.png",
+    "Meridian",
+    "Pasted image 20250501002626.png",
     "Pasted image 20250401152550.png",
     "Screenshot 2025-03-31 at 21.37.57.png",
     "6 - Main Notes/AWS",
@@ -233,12 +236,8 @@
     "Imgs&Assets/Screenshot 2025-02-06 at 08.38.41.png",
     "Persistence.canvas",
     "Imgs&Assets/Pasted image 20250115085124.png",
-    "Imgs&Assets/Pasted image 20250316121439.png",
-    "Imgs&Assets/Pasted image 20250214083751.png",
-    "Imgs&Assets/Pasted image 20250214083117.png",
     "Personal Projects/Projects/Nuzlocke/Fire Red",
     "Personal Projects/Projects/Nuzlocke",
-    "Untitled",
     "7 - Kanban/Untitled.canvas",
     "Excalidraw/Meli/TLV Ecossystem.excalidraw",
     "Personal Projects/Projects/Study",
