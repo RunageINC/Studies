@@ -10,6 +10,7 @@ Projeto criado através dos estudos da pós FTR da RocketSeat, com algumas alter
 - Dotenv (especificação de arquivo de teste para o Vitest)
 - Drizzle Kit (verificação dos dados em banco)
 - FakerJS (mantido pela comunidade, geração de dados de mock pra test)
+- TSUP (build)
 
 ## Deps
 
@@ -22,14 +23,22 @@ Projeto criado através dos estudos da pós FTR da RocketSeat, com algumas alter
 - UUIDv7 (id's únicos para o DB)
 - AWS SDK Lib Storage & S3 (Cloudflare image bucket)
 - DayJS (trabalhar com datas especialmente nos testes)
+- CSV Stringify (construção de CSV para reports)
+
+## Infra
+
+- Postgres - v17-alpine para substituir as imagens da bitnami ensinadas no curso dado o problema com a bitnami removendo as imagens gratuitas
+- Docker com Docker Compose - Banco de dados
+- Cloudflare R2 - Armazenamento de imagens e reports
+- Github Actions - Workflow de E2E para PR's no CI
 
 # Step-by-step guide
 
 As dependências instaladas foram:
 
-`npm i -D typescript tsx @types/node @biomejs/biome vitest vite-tsconfig-paths dotenv-cli drizzle-kit @faker-js/faker`
+`npm i -D typescript tsx @types/node @biomejs/biome vitest vite-tsconfig-paths dotenv-cli drizzle-kit @faker-js/faker tsup`
 
-`npm i @fastify/cors fastify fastify-type-provider-zod zod @fastify/swagger @fastify/swagger-ui @fastify/multipart drizzle-orm postgres uuidv7 @aws-sdk/lib-storage @aws-sdk/client-s3`
+`npm i @fastify/cors fastify fastify-type-provider-zod zod @fastify/swagger @fastify/swagger-ui @fastify/multipart drizzle-orm postgres uuidv7 @aws-sdk/lib-storage @aws-sdk/client-s3 csv-stringify`
 
 Após isso, foi executado um `npx tsx --init` e utilizando o tsconfig.json do repositório da microsoft relacionado com a versão do node utilizado no projeto. Esse arquivo pode ser encontrado no seguinte repositório:
 
@@ -48,6 +57,7 @@ Foram feitas algumas modificações nesse arquivo para refletir em como o projet
 - npm run db:generate -> lê os schemas e cria os migrations para o banco de dados.
 - npm run db:migrate -> executa os schemas no banco de dados
 - npm run db:studio -> Roda o drizzle kit studio
+- npm run build -> Roda o build com o tsup
 
 ## DB
 
@@ -62,7 +72,7 @@ volumes:
 
 ### ORM
 
-No projeto, foi utilizado o drizzle-orm para manipulação dos dados em banco bem como o drizzle-kit para verificação dos mesmos. O drizzle é quase um query builder então a sintaxe é muito próxima das queries tradicionais. Configurado através do arquivo `drizzle.config.ts`. A sintaxe de schema do Drizzle usa o próprio TypeScript. Esse ORM também tem uma estratégia de migration para controlar o versionamento do banco de dados.
+No projeto, foi utilizado o drizzle-orm para manipulação dos dados em banco bem como o drizzle-kit para verificação dos mesmos. Sua vantagem em relação ao Prisma, que é mais comum, é justamente o fato de ser mais leve e mais rápido em runtime. O drizzle é quase um query builder então a sintaxe é muito próxima das queries tradicionais, diferente do prisma que faz com que a escrita pareça mais "mágica". Configurado através do arquivo `drizzle.config.ts`. A sintaxe de schema do Drizzle usa o próprio TypeScript. Esse ORM também tem uma estratégia de migration para controlar o versionamento do banco de dados.
 
 A tabela de uploads vai conter o registro de cada upload com seu remote URL através do cloudflare. Isso porque as imagens que irão subir deverão ser públicas e portanto devem ter uma image url correspondente.
 
@@ -95,7 +105,7 @@ O middleware confere se o schema precisa consumir um tipo específico (no caso o
 
 ## Testes com Vitest
 
-Como ensinado nas aulas, foi utilizado o framework de testes vitest. Também é necessário instalar a dependência `vite-tsconfig-paths` dado que estamos utliizando paths customizáveis no tsconfig e sem essa dependência o framework não consegue entender os alias. Para referenciar os testes com o Vite, foi criado o arquivo de configuração `vite.config.mjs`. Até o momento de desenvolvimento dessa app, o Vite não aceita .ts como extensão dos arquivos.
+Como ensinado nas aulas, foi utilizado o framework de testes vitest dado que possui mais velocidade por usar o ESM e esbuild para a compilação dos testes em relação ao jest. Também é necessário instalar a dependência `vite-tsconfig-paths` dado que estamos utliizando paths customizáveis no tsconfig e sem essa dependência o framework não consegue entender os alias. Para referenciar os testes com o Vite, foi criado o arquivo de configuração `vite.config.mjs`. Até o momento de desenvolvimento dessa app, o Vite não aceita .ts como extensão dos arquivos.
 
 ### upload-image.spec.ts
 
@@ -157,6 +167,24 @@ Esse padrão é existente no Go, Elixir e também existem libs para o Java para 
 
 Retorna, através de uma paginação opcional, os uploads realizados. Nota-se que ele retorna um Either de never, ou seja, impossível de dar erro. A paginação é baseada em offset e não em cursores, dado que essa paginação não será infinita para os uploads. Caso a quantidade cresca, o ideal é fazer com cursores.
 
+#### export-uploads.ts
+
+Função de exportação de uploads que retorna um reportUrl representando o arquivo csv de exportação. Em casos de longa espera de exportação, não podemos trancar o usuário na resposta do json. Nesse caso, podemos montar uma sessão no R2 na pasta de `downloads` por exemplo, para armazenar o report de exportação.
+
+Quando lidamos com queries de exportação, pode ser que a query retorne **muitos** dados. Por exemplo, se vamos fazer um retorno de pessoas registradas em um evento, podemos facilmente ultrapassar os 150.000. Em média, na combinação de um nome e email, temos 35 bytes de dados. Esse número multiplicado pelo número de usuários, temos aproximadamente 5MB de dados para se retornar do banco. A maioria dos dados não são somente esse conjunto, e esse produto é multiplicado pelo número de usuários.
+
+Dado isso, temos 2 funcionalidades na hora de exportar. No postgres, temos o comando `COPY`. Ele copia todos os dados para um CSV mas sem nenhum tipo de filtro. Geralmente para esses relatórios, esse tipo de feature não é utilizado. Para esses, o postgres possui uma feature de `CURSOR`, que funciona muito semelhante a uma stream do node, buscando dado a dado.
+
+O Drizzle não possui suporte a `CURSOR` e portanto isso deve ser feito via driver nativo. Para isso, foi utilizado o método de `unsafe` passando uma query gerada pelo drizzle (para manter a sanitização, evitando injections).
+
+Os dados são escritos via stream no csv, salvos no R2 de maneira incremental evitando com que os dados fiquem salvos em memória. Usando a lib [CSV Stringify](https://csv.js.org/), vamos gerar o CSV com os respectivos headers.
+
+Para processar os arquivos, vamos utilizar o `pipeline` do Node, que aceita um `Iterable` (justamente o retorno do cursor do postgres) e trabalharemos em cima desses dados.
+
+Aplicar o contentStream dentro do upload não é muito simples dado a natureza da `pipeline`. A maneira que foi utilizada para passar o conteúdo para o upload foi através do uso de um `PassThrough` stream. Após isso, esperamos através do Promise.all a finalização tanto da pipe quanto do upload. É importante não usar await na pipeline dado que queremos escrever em tempo real.
+
+Importante ressaltar que para não haver duplicação dos dados, a pipe recebe um transform logo após o cursor que faz com que não existam registros duplicados, através do `objectMode` que funciona basicamente como um stringify, retornando um array.
+
 ### Routes
 
 #### Uploads
@@ -178,6 +206,18 @@ Toda a configuração foi feita para que a conexão com o R2 seja estabelecido, 
 Cria um arquivo de nome único para armazenar no R2 utilizando o Upload do libstorage da AWS. Esse método sanitiza o nome do arquivo e retorna a chave sendo o nome do arquivo somado a um UUIDv7 e também uma URL pública.
 
 Utiliza-se de um folder também para que seja possível criar lifecycle rules dentro do storage, marcando ao arquivo que estiver na pasta de downloads um TTL.
+
+## Github Actions - Workflow de CI
+
+Foi criado um Workflow de CI de testes para cada pull request aberto para esse projeto. Esse workflow é executado dentro do Ubuntu, basicamente utilizando os serviços que precisamos como o postgres.
+
+Após isso, ele baixa o código e faz setup do npm. No curso foi usado o pnpm com node v20 e os runs foram `pnpm install --frozen-lockfile` e `pnpm run test`. Para esse projeto, como estou fazendo com npm puro, deixei com o v23 e usei os equivalentes do --frozen-lockfile (`npm ci`) e `npm run test`. O comando de ci/--frozen-lockfile basicamente garante que as instalações não gerem outro package-lock.json, podendo bagunçar os arquivos de dependência já existentes no projeto.
+
+Após isso, na aba de Github Actions é possível ver a execução do CI.
+
+## Configuração de Build
+
+Para otimizar a build, foi utilizado o `tsup` que utiliza o ES Build por debaixo dos panos, sendo um processo bem rápido. O processo de build ajuda a deixar o código menor e com menos coisas desnecessárias para a distribuição. A configuração foi feita através do arquivo `tsup.config.ts`. Fora a configuração padrão, uma configuração que vale mencionar é a propriedade `clean` que limpa o diretório de build (definido como dist através do `outDir`) que limpa o diretório de build antes de buildar novamente.
 
 ## Rodando o projeto:
 

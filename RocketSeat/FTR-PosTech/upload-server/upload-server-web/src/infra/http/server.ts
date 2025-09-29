@@ -6,7 +6,7 @@ import { fastify } from 'fastify';
 import { serializerCompiler, validatorCompiler } from 'fastify-type-provider-zod';
 import { docMetadata } from './docs/metadata';
 import { errorHandler } from './middleware/error-handler';
-import { getUploadsRouter, uploadImageRouter } from './routes/uploads';
+import { exportUploadsRouter, getUploadsRouter, uploadImageRouter } from './routes/uploads';
 
 const server = fastify();
 
@@ -27,6 +27,7 @@ server.register(fastifySwaggerUi, {
 
 server.register(uploadImageRouter);
 server.register(getUploadsRouter);
+server.register(exportUploadsRouter);
 
 server.listen({ port: 3333, host: '0.0.0.0' }).then(() => {
   console.log('Server is running on port 3333');

@@ -36,3 +36,16 @@ export const getUploadsRouteDocSchema = {
     }),
   },
 };
+
+export const exportUploadsRouteDocSchema = {
+  summary: 'Export uploads',
+  description: 'Export uploads from the server',
+  querystring: z.object({
+    searchQuery: z.string().optional(),
+  }),
+  response: {
+    200: z.object({
+      reportUrl: z.string(),
+    }),
+  },
+};
