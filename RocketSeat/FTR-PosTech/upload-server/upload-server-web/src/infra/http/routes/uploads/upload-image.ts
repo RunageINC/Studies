@@ -3,13 +3,13 @@ import { uploadImage } from '@/app/functions/upload-image';
 import { isRight, unwrapEither } from '../../shared/either';
 import { uploadImageRouteDocSchema } from './route-schemas';
 
-const TWO_MEGABYTES = 1024 * 1024 * 2;
+const FOUR_MEGABYTES = 1024 * 1024 * 4;
 
 export const uploadImageRouter: FastifyPluginAsyncZod = async (server) => {
   server.post('/uploads', { schema: uploadImageRouteDocSchema }, async (req, res) => {
     const uploadedFile = await req.file({
       limits: {
-        fileSize: TWO_MEGABYTES,
+        fileSize: FOUR_MEGABYTES,
       },
     });
 
