@@ -9,7 +9,7 @@
 5. Enter receiver information
     1. Ludwick
     2. Zemenhoff
-    3. [919-161-0264](tel:9191610264)
+    3. 919-161-0264
     4. Observe Astra agreement under Continue
 6. Enter KYC information
     1. 02/03/1985
