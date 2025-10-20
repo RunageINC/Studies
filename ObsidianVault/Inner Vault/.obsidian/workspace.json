@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "396dd6ab4804e2a4",
+        "id": "0f01076a7389ea9d",
         "type": "tabs",
         "children": [
           {
-            "id": "979dd936a0003cb2",
+            "id": "4d743397c53f5f33",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Seed.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Seed"
+              "title": "New tab"
             }
           }
         ]
@@ -192,10 +178,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "979dd936a0003cb2",
+  "active": "4d743397c53f5f33",
   "lastOpenFiles": [
-    "6 - Main Notes/Salt.md",
+    "7 - Kanban/Studies Kanban.md",
+    "7 - Kanban/Daily Tasks.md",
+    "Meridian/Phone Tests.md",
+    "Meridian/Tasks.md",
+    "Meridian/Plaid Docs.md",
+    "Meridian/Retool.md",
+    "Security/Git config.md",
     "6 - Main Notes/Seed.md",
+    "6 - Main Notes/Salt.md",
     "6 - Main Notes/Resolução de problemas.md",
     "6 - Main Notes/Referencias Front.md",
     "6 - Main Notes/Queue.md",
@@ -213,13 +206,6 @@
     "6 - Main Notes/How Internet Works.md",
     "6 - Main Notes/High Order Function.md",
     "6 - Main Notes/Heroku.md",
-    "6 - Main Notes/Fluent API.md",
-    "6 - Main Notes/Either.md",
-    "6 - Main Notes/Findings.md",
-    "6 - Main Notes/Design System.md",
-    "6 - Main Notes/Design Patterns.md",
-    "6 - Main Notes/Deployments.md",
-    "6 - Main Notes/Deploy.md",
     "Pasted image 20250501002626.png",
     "Pasted image 20250321221824.png",
     "Pasted image 20250401152550.png",
