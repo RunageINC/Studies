@@ -13,7 +13,7 @@ AWS accounts for 31% of the market as in Q1 2024, and Microsoft being the 2nd ho
 
 ## Infrastructure
 
-AWS is global and for it to continuously work, they have:
+AWS is global solutions suite and for it to continuously work, they have:
 
 - Regions
 - Availability Zones

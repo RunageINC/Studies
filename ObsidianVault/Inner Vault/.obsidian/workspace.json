@@ -4,31 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "78da77a156c4852f",
+        "id": "da2c9a0889c2303c",
         "type": "tabs",
         "children": [
           {
-            "id": "52ae0a62fc6c6c39",
+            "id": "4077c05dc5599eae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "6 - Main Notes/Git config.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Pasted image 20250501002626.png"
               },
-              "icon": "lucide-file",
-              "title": "Git config"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250501002626"
             }
           }
         ]
@@ -63,12 +51,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Games",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -88,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 260.5
   },
   "right": {
     "id": "ec033ef36d65152e",
@@ -165,8 +153,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -179,6 +167,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -191,56 +180,56 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "52ae0a62fc6c6c39",
+  "active": "4077c05dc5599eae",
   "lastOpenFiles": [
-    "7 - Kanban/Daily Tasks.md",
-    "7 - Kanban/Todo Webpraia.md",
-    "7 - Kanban/Studies Kanban.md",
-    "Personal Projects/Personal Canva.md",
-    "Personal Projects/Movies.md",
-    "Personal Projects/Feedbacks de artigos.md",
-    "Personal Projects/Estudos (com Sourcing) + Toolings.md",
-    "Personal Projects/Diário 75 dias.md",
-    "Personal Projects/Projects/YGO TF 1 Deck Builder Board.md",
-    "Personal Projects/Projects/FFTA2 Board.md",
-    "Personal Projects/Projects/FFTA2 Builder Entity Definition.md",
-    "Personal Projects/Projects/FFTA2 Guide.md",
-    "Personal Projects/Projects/WebPraia/Security.md",
-    "Personal Projects/Projects/WebPraia/Todo.md",
-    "Meridian/Configurations.md",
-    "Meridian/Deployment PRocess.md",
-    "Meridian/Retool.md",
-    "Meridian/Tasks.md",
-    "Meridian/Testing Login Phone.md",
-    "6 - Main Notes/Microservices.md",
-    "6 - Main Notes/High Order Function.md",
-    "Meridian/tRPC endpoints.md",
-    "6 - Main Notes/React/React Router DOM.md",
-    "6 - Main Notes/React/React.md",
-    "6 - Main Notes/Interface Otimista.md",
-    "Meridian/Bugs Found.md",
-    "Pasted image 20250523095623.png",
-    "Pasted image 20250514181335.png",
-    "Meridian",
-    "Pasted image 20250501002626.png",
+    "Pasted image 20250321221824.png",
     "Pasted image 20250401152550.png",
+    "1 - Rough Notes & Ideas/Web Server.md",
+    "1 - Rough Notes & Ideas/Useful tips.md",
+    "1 - Rough Notes & Ideas/Useful Links.md",
+    "1 - Rough Notes & Ideas/tus Protocol.md",
+    "1 - Rough Notes & Ideas/TAJS articles.md",
+    "1 - Rough Notes & Ideas/Studies.md",
+    "1 - Rough Notes & Ideas/Sites for redoing.md",
+    "1 - Rough Notes & Ideas/Sistemas de IDeias.md",
+    "1 - Rough Notes & Ideas/React Performance.md",
+    "1 - Rough Notes & Ideas/New courses.md",
+    "1 - Rough Notes & Ideas/IFEE.md",
+    "1 - Rough Notes & Ideas/Error Mapping.md",
+    "1 - Rough Notes & Ideas/Fury.md",
+    "1 - Rough Notes & Ideas/Fluxo Conversacional de Whatsapp.md",
+    "1 - Rough Notes & Ideas/CSS.md",
+    "1 - Rough Notes & Ideas/Criteria.md",
+    "1 - Rough Notes & Ideas/Conversational Manager.md",
+    "1 - Rough Notes & Ideas/Chat Bot (Flows).md",
+    "1 - Rough Notes & Ideas/Chai.md",
+    "1 - Rough Notes & Ideas/BFF.md",
+    "1 - Rough Notes & Ideas/Testing/Mocks.md",
+    "1 - Rough Notes & Ideas/Testing/Istambul.md",
+    "1 - Rough Notes & Ideas/Testing/E2E Testing.md",
+    "1 - Rough Notes & Ideas/Testing/BDD.md",
+    "1 - Rough Notes & Ideas/Babel.md",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
+    "Pasted image 20250927233901.png",
     "Screenshot 2025-03-31 at 21.37.57.png",
+    "Persistence.canvas",
+    "Pasted image 20250927233346.png",
+    "Pasted image 20250927233052.png",
+    "Pasted image 20250927232918.png",
+    "Pasted image 20250927232903.png",
+    "Pasted image 20250501002626.png",
+    "Meridian/Pasted image 20250904205001.png",
+    "Security",
+    "6 - Main Notes/Meditação",
+    "6 - Main Notes/DevOps",
+    "6 - Main Notes/CloudFlare",
+    "Meridian",
     "6 - Main Notes/AWS",
     "6 - Main Notes/Javascript/Node/NestJS/Untitled",
     "6 - Main Notes/Database",
     "6 - Main Notes/Cyber Security",
     "6 - Main Notes/Javascript/Node/NestJS",
-    "Pasted image 20250321221824.png",
-    "Imgs&Assets/Screenshot 2025-02-14 at 08.37.35.png",
-    "Imgs&Assets/Screenshot 2025-02-14 at 08.36.54.png",
-    "Imgs&Assets/Screenshot 2025-02-06 at 08.38.41.png",
-    "Persistence.canvas",
-    "Imgs&Assets/Pasted image 20250115085124.png",
-    "Personal Projects/Projects/Nuzlocke/Fire Red",
-    "Personal Projects/Projects/Nuzlocke",
     "7 - Kanban/Untitled.canvas",
-    "Excalidraw/Meli/TLV Ecossystem.excalidraw",
-    "Personal Projects/Projects/Study",
     "Untitled.canvas",
     "6 - Main Notes/Meli/Info360 Changes.canvas",
     "2 - Source Material/YouTube/Learning Process/Process.canvas",

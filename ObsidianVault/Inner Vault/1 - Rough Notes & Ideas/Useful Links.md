@@ -57,3 +57,19 @@ YGO Falsebound Kingdom
 [https://creatoreconomy.so/p/40-life-lessons-i-know-at-40-i-wish-i-knew-at-20?ref=dailydev](https://creatoreconomy.so/p/40-life-lessons-i-know-at-40-i-wish-i-knew-at-20?ref=dailydev)
 
 [https://blog.devgenius.io/api-design-from-basics-to-best-practices-49bbb29cf696](https://blog.devgenius.io/api-design-from-basics-to-best-practices-49bbb29cf696)
+
+
+### 10 Underrated Games
+
+- Jade Cocoon 2
+- Dark Cloud 2
+- Mana Khemia 2: Fall of Alchemy
+- Shadow Hearts: Covenant
+- Arc the Lad: Twilight of the Spirits
+- Steambot Chronicles
+- Romancing Saga: Minstrel Song
+- Atelier Iris: Eternal Mana
+- Breath of Fire: Dragon Quarter
+- Suikoden V
+- https://eeveeexpo.com/decay/
+- Corriden - https://www.youtube.com/watch?v=hOS0IyEsO-w

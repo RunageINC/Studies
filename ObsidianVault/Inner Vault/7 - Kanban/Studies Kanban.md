@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] Translate my CV to English
 - [ ] Create Different CV's for different opportunities
 
 
@@ -34,6 +33,7 @@ kanban-plugin: board
 
 ## Done
 
+- [ ] Translate my CV to English
 
 
 

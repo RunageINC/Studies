@@ -122,7 +122,6 @@ Books:
 
 - How to take smart notes
 
-Github Commands
+Github Folders
 
-- rp retest - como comentário do git, faz com que o projeto seja retestado
-- rp build test - como comentário do git, faz com que uma versão de testes seja criada.
+https://github.com/lafengnan/E-Books
