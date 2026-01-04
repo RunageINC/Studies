@@ -51,3 +51,6 @@ There are a lot of instance types, but the most common/used are:
 | m5.8xlarge  | 32   | 128       | EBS-Only         | 10 Gbps             | 6800                 |
 
 > On the free tier, t2.micro is available for 750h per month (which basically means 1 entire month)
+
+This service is not Pay as you go though. It also can work with the concept of [[Spot Instance]]
+

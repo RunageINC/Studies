@@ -4,16 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "41d2fbde58af5197",
+        "id": "ce89ab9c5f66c6ca",
         "type": "tabs",
         "children": [
           {
-            "id": "ec37e3dca8dbaf0c",
+            "id": "0fde67f6ce6d270c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/AWS/ECS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "ECS"
+            }
+          },
+          {
+            "id": "6778f1f3a2737adb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/AWS/EC2.md",
+                "file": "6 - Main Notes/Networking and Routing/Subnets.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +54,119 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "EC2"
+              "title": "Subnets"
+            }
+          },
+          {
+            "id": "f2fa42a79e76d748",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Networking and Routing/VPC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "VPC"
+            }
+          },
+          {
+            "id": "b3362334a7a34baf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Networking and Routing/Route Table.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Route Table"
+            }
+          },
+          {
+            "id": "1e2af0a9dd812c40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/AWS/Spot Instance.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Spot Instance"
+            }
+          },
+          {
+            "id": "6c71ce136dd33536",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/lb-explanation-subnets.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "lb-explanation-subnets.excalidraw"
+            }
+          },
+          {
+            "id": "7e0e9f1bdebc8d40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/AWS/Fargate.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Fargate"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -192,36 +327,37 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ec37e3dca8dbaf0c",
+  "active": "7e0e9f1bdebc8d40",
   "lastOpenFiles": [
+    "6 - Main Notes/Serverless.md",
+    "6 - Main Notes/AWS/Fargate.md",
+    "6 - Main Notes/AWS/EC2.md",
+    "6 - Main Notes/AWS/Spot Instance.md",
+    "6 - Main Notes/AWS/ECS.md",
+    "6 - Main Notes/Networking and Routing/Route Table.md",
+    "6 - Main Notes/AWS/ALB.md",
+    "6 - Main Notes/Networking and Routing/Load Balancer.md",
+    "Excalidraw/lb-explanation-subnets.excalidraw.md",
+    "6 - Main Notes/Networking and Routing/VPC.md",
+    "6 - Main Notes/AWS/Private vs Public vs Elastic IP.md",
+    "6 - Main Notes/Networking and Routing/Untitled.md",
+    "6 - Main Notes/Networking and Routing/NAT.md",
+    "6 - Main Notes/Networking and Routing",
+    "6 - Main Notes/AWS/Internet Gateway.md",
+    "6 - Main Notes/Networking and Routing/Subnets.md",
+    "6 - Main Notes/AWS/Edge Locations - Points of Presence.md",
+    "4 - Indexes/DevOps & Architecture.md",
+    "4 - Indexes/Front End.md",
+    "6 - Main Notes/AWS/App Runner.md",
     "6 - Main Notes/DevOps/Pulumi.md",
     "6 - Main Notes/www.pulumi.com.md",
     "6 - Main Notes/DevOps/IaC - Infrastructure as Code.md",
     "6 - Main Notes/DevOps/IAC Explicação.excalidraw.md",
-    "4 - Indexes/DevOps & Architecture.md",
     "Pasted image 20260104153800.png",
     "6 - Main Notes/DevOps/Docker Compose.md",
     "6 - Main Notes/DevOps/Docker.md",
     "6 - Main Notes/High Order Function.md",
-    "6 - Main Notes/How Internet Works.md",
-    "6 - Main Notes/Envers.md",
-    "6 - Main Notes/Design System.md",
-    "6 - Main Notes/Design Patterns.md",
-    "6 - Main Notes/Deployments.md",
-    "6 - Main Notes/Deploy.md",
-    "6 - Main Notes/DDD.md",
-    "6 - Main Notes/Cookies.md",
-    "6 - Main Notes/Cookie Sessions.md",
-    "6 - Main Notes/DevOps/Containers.md",
-    "6 - Main Notes/DevOps/Container Registry.md",
-    "6 - Main Notes/IaC - Infrastrutcture as Code.md",
     "6 - Main Notes/IaC",
-    "Meridian/Phone Tests.md",
-    "Meridian/Meridian - Work Related.md",
-    "8 - Personal Projects/Estudos (com Sourcing) + Toolings.md",
-    "Excalidraw/Drawing 2025-12-18 09.21.59.excalidraw.md",
-    "Meridian/Meridian.md",
-    "Meridian/Testing Login Phone.md",
     "6 - Main Notes/Python",
     "Pasted image 20250501002626.png",
     "Pasted image 20250401152550.png",
@@ -241,7 +377,6 @@
     "6 - Main Notes/Problem Solving",
     "8 - Personal Projects/BeachMenu",
     "Persistence.canvas",
-    "Security",
     "7 - Kanban/Untitled.canvas",
     "6 - Main Notes/Meli/Info360 Changes.canvas",
     "2 - Source Material/YouTube/Learning Process/Process.canvas",

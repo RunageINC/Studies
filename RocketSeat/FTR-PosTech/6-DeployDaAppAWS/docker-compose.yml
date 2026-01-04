@@ -1,0 +1,41 @@
+services:
+  db-postgres:
+    image: postgres:17-alpine
+    container_name: upload-server-db-postgres
+    restart: unless-stopped
+    platform: linux/amd64
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=upload-server-web
+    volumes:
+      - db-postgres:/var/lib/postgresql/data
+    networks:
+      - upload-server-network
+      - db
+
+  upload-server-web:
+    build: ./dev-build
+    depends_on:
+      - db-postgres
+    container_name: upload-server-web
+    ports:
+      - 3000:3333
+    environment:
+      - CLOUDFLARE_ACCESS_KEY_ID=${CLOUDFLARE_ACCESS_KEY_ID}
+      - CLOUDFLARE_ACCESS_KEY_SECRET=${CLOUDFLARE_ACCESS_KEY_SECRET}
+      - CLOUDFLARE_ACCOUNT_ID=${CLOUDFLARE_ACCOUNT_ID}
+      - CLOUDFLARE_BUCKET=${CLOUDFLARE_BUCKET}
+      - CLOUDFLARE_PUBLIC_URL=${CLOUDFLARE_PUBLIC_URL}
+    networks:
+      - upload-server-network
+
+volumes:
+  db-postgres:
+networks:
+  widget:
+    driver: bridge
+  db:
+    driver: bridge

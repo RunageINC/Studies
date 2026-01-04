@@ -1,0 +1,2 @@
+
+É um conceito de instância de máquinas de leilão. Basicamente a AWS empresta uma máquina EC2 para trabalhar de infraestruturas que pagaram a mais mas possuem máquinas ociosas, mas há o risco de perder a máquina caso ela seja usada por quem de fato pagou (downtime é quase que inevitável), sendo necessário que as aplicações sejam stateless para que esse modelo funcione.
