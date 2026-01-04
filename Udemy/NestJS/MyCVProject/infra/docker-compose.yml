@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  mysql:
+    build: .
+    container_name: mycv_db_container
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: mycv
+      MYSQL_DATABASE: mycv_db
+      MYSQL_USER: mycv
+      MYSQL_PASSWORD: mycv
+      MYSQL_INNODB_FORCE_RECOVERY: 1
+    volumes:
+      - ./volumes:/var/lib/mysql
+    networks:
+      - mycv_network
+  
+networks:
+  mycv_network:
+    driver: bridge

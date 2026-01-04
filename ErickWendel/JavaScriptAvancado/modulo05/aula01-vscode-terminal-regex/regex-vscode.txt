@@ -1,0 +1,23 @@
+^\d{3}.\d{3}.\d{3}-\d{2}$`
+
+123.123.123-14
+321.123.345-20
+200.300.500-60
+
+replace [.-] - nada
+
+^(\w+),\s(\w+)$
+
+Wendel, Erick
+Gomes, Laila
+Johnson, Jose
+
+replace { firstName: "$2", lastName: "$1" }
+
+`\[(.*?)\]\(([http|https].*?)\)`
+O [Github](https://github.com) é um site de codificação. Permite acesso com o [Google](http://google.com), 
+mas não permite conectar com o [Instagram](https://instagram.com).
+
+Existem outros como o [Bitbucket](https://bitbucket.com) e até mesmo o [GitLab](https://gitlab.com)
+
+replace <a href="$2">$1</a>

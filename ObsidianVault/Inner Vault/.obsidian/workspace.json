@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "fb321ee3dcb7ac0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "41d2fbde58af5197",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec37e3dca8dbaf0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/AWS/EC2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "EC2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed728d111284bc01",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7b10cafced2ccc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92c6d2ac231bfd14",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8681b440d8b4d79a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "convergente",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d48ce54d69140567",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259.5
+  },
+  "right": {
+    "id": "ec033ef36d65152e",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a6889b5f3064428",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3501a5de8040da08",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Personal.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Personal"
+            }
+          },
+          {
+            "id": "d7daad7f58150621",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Personal.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Personal"
+            }
+          },
+          {
+            "id": "019ca0f08fdac89c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "69e7f157bd9006cc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "6 - Main Notes/Javascript/Node/NestJS/NestJS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of NestJS"
+            }
+          },
+          {
+            "id": "cd4f7d8bcd6680d5",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 683.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "ec37e3dca8dbaf0c",
+  "lastOpenFiles": [
+    "6 - Main Notes/DevOps/Pulumi.md",
+    "6 - Main Notes/www.pulumi.com.md",
+    "6 - Main Notes/DevOps/IaC - Infrastructure as Code.md",
+    "6 - Main Notes/DevOps/IAC Explicação.excalidraw.md",
+    "4 - Indexes/DevOps & Architecture.md",
+    "Pasted image 20260104153800.png",
+    "6 - Main Notes/DevOps/Docker Compose.md",
+    "6 - Main Notes/DevOps/Docker.md",
+    "6 - Main Notes/High Order Function.md",
+    "6 - Main Notes/How Internet Works.md",
+    "6 - Main Notes/Envers.md",
+    "6 - Main Notes/Design System.md",
+    "6 - Main Notes/Design Patterns.md",
+    "6 - Main Notes/Deployments.md",
+    "6 - Main Notes/Deploy.md",
+    "6 - Main Notes/DDD.md",
+    "6 - Main Notes/Cookies.md",
+    "6 - Main Notes/Cookie Sessions.md",
+    "6 - Main Notes/DevOps/Containers.md",
+    "6 - Main Notes/DevOps/Container Registry.md",
+    "6 - Main Notes/IaC - Infrastrutcture as Code.md",
+    "6 - Main Notes/IaC",
+    "Meridian/Phone Tests.md",
+    "Meridian/Meridian - Work Related.md",
+    "8 - Personal Projects/Estudos (com Sourcing) + Toolings.md",
+    "Excalidraw/Drawing 2025-12-18 09.21.59.excalidraw.md",
+    "Meridian/Meridian.md",
+    "Meridian/Testing Login Phone.md",
+    "6 - Main Notes/Python",
+    "Pasted image 20250501002626.png",
+    "Pasted image 20250401152550.png",
+    "Pasted image 20250321221824.png",
+    "5w2h-diagram.png",
+    "Meridian/Pasted image 20251107171933.png",
+    "Meridian/Pasted image 20250904205001.png",
+    "Meridian/Pasted image 20250523095623.png",
+    "Meridian/Pasted image 20250514181335.png",
+    "Meridian/Pasted image 20251107171956.png",
+    "8 - Personal Projects/App de Acessibilidade",
+    "8 - Personal Projects/Papisa Systems",
+    "6 - Main Notes/Untitled.base",
+    "Untitled.canvas",
+    "8 - Personal Projects/Projects/Gaming Agenda/FFTA2",
+    "8 - Personal Projects/Projects/Gaming Agenda",
+    "6 - Main Notes/Problem Solving",
+    "8 - Personal Projects/BeachMenu",
+    "Persistence.canvas",
+    "Security",
+    "7 - Kanban/Untitled.canvas",
+    "6 - Main Notes/Meli/Info360 Changes.canvas",
+    "2 - Source Material/YouTube/Learning Process/Process.canvas",
+    "Excalidraw/Meli/Untitled.canvas"
+  ]
+}

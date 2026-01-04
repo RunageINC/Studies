@@ -1,0 +1,19 @@
+.noTaskFound {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  border-top: 1px solid var(--gray-300);
+
+  line-height: 1.6;
+  color: var(--gray-300);
+
+  padding-top: 4rem;
+}
+
+.noTaskFound > span:nth-of-type(1) {
+  margin-top: 10px;
+  font-weight: bold;
+}

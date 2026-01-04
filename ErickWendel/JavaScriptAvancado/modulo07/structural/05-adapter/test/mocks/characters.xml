@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <results>
+      <element>
+         <created>2017-11-04T20:19:09.017Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/25</element>
+         </episode>
+         <gender>Male</gender>
+         <id>10</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/10.jpeg</image>
+         <location>
+            <name>Worldender's lair</name>
+            <url>https://rickandmortyapi.com/api/location/4</url>
+         </location>
+         <name>Alan Rails</name>
+         <origin>
+            <name>unknown</name>
+            <url />
+         </origin>
+         <species>Human</species>
+         <status>Dead</status>
+         <type>Superhuman (Ghost trains summoner)</type>
+         <url>https://rickandmortyapi.com/api/character/10</url>
+      </element>
+      <element>
+         <created>2017-11-04T20:20:20.965Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/12</element>
+         </episode>
+         <gender>Male</gender>
+         <id>11</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/11.jpeg</image>
+         <location>
+            <name>Earth (Replacement Dimension)</name>
+            <url>https://rickandmortyapi.com/api/location/20</url>
+         </location>
+         <name>Albert Einstein</name>
+         <origin>
+            <name>Earth (C-137)</name>
+            <url>https://rickandmortyapi.com/api/location/1</url>
+         </origin>
+         <species>Human</species>
+         <status>Dead</status>
+         <type />
+         <url>https://rickandmortyapi.com/api/character/11</url>
+      </element>
+      <element>
+         <created>2017-11-04T20:32:33.144Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/3</element>
+         </episode>
+         <gender>Male</gender>
+         <id>12</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/12.jpeg</image>
+         <location>
+            <name>Anatomy Park</name>
+            <url>https://rickandmortyapi.com/api/location/5</url>
+         </location>
+         <name>Alexander</name>
+         <origin>
+            <name>Earth (C-137)</name>
+            <url>https://rickandmortyapi.com/api/location/1</url>
+         </origin>
+         <species>Human</species>
+         <status>Dead</status>
+         <type />
+         <url>https://rickandmortyapi.com/api/character/12</url>
+      </element>
+      <element>
+         <created>2017-11-04T20:33:30.779Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/31</element>
+         </episode>
+         <gender>unknown</gender>
+         <id>13</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/13.jpeg</image>
+         <location>
+            <name>Earth (Replacement Dimension)</name>
+            <url>https://rickandmortyapi.com/api/location/20</url>
+         </location>
+         <name>Alien Googah</name>
+         <origin>
+            <name>unknown</name>
+            <url />
+         </origin>
+         <species>Alien</species>
+         <status>unknown</status>
+         <type />
+         <url>https://rickandmortyapi.com/api/character/13</url>
+      </element>
+      <element>
+         <created>2017-11-04T20:51:31.373Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/10</element>
+         </episode>
+         <gender>Male</gender>
+         <id>14</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/14.jpeg</image>
+         <location>
+            <name>Citadel of Ricks</name>
+            <url>https://rickandmortyapi.com/api/location/3</url>
+         </location>
+         <name>Alien Morty</name>
+         <origin>
+            <name>unknown</name>
+            <url />
+         </origin>
+         <species>Alien</species>
+         <status>unknown</status>
+         <type />
+         <url>https://rickandmortyapi.com/api/character/14</url>
+      </element>
+      <element>
+         <created>2017-11-04T20:56:13.215Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/10</element>
+         </episode>
+         <gender>Male</gender>
+         <id>15</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/15.jpeg</image>
+         <location>
+            <name>Citadel of Ricks</name>
+            <url>https://rickandmortyapi.com/api/location/3</url>
+         </location>
+         <name>Alien Rick</name>
+         <origin>
+            <name>unknown</name>
+            <url />
+         </origin>
+         <species>Alien</species>
+         <status>unknown</status>
+         <type />
+         <url>https://rickandmortyapi.com/api/character/15</url>
+      </element>
+      <element>
+         <created>2017-11-04T21:12:45.235Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/15</element>
+         </episode>
+         <gender>Male</gender>
+         <id>16</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/16.jpeg</image>
+         <location>
+            <name>Earth (Replacement Dimension)</name>
+            <url>https://rickandmortyapi.com/api/location/20</url>
+         </location>
+         <name>Amish Cyborg</name>
+         <origin>
+            <name>unknown</name>
+            <url />
+         </origin>
+         <species>Alien</species>
+         <status>Dead</status>
+         <type>Parasite</type>
+         <url>https://rickandmortyapi.com/api/character/16</url>
+      </element>
+      <element>
+         <created>2017-11-04T22:21:24.481Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/3</element>
+         </episode>
+         <gender>Female</gender>
+         <id>17</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/17.jpeg</image>
+         <location>
+            <name>Anatomy Park</name>
+            <url>https://rickandmortyapi.com/api/location/5</url>
+         </location>
+         <name>Annie</name>
+         <origin>
+            <name>Earth (C-137)</name>
+            <url>https://rickandmortyapi.com/api/location/1</url>
+         </origin>
+         <species>Human</species>
+         <status>Alive</status>
+         <type />
+         <url>https://rickandmortyapi.com/api/character/17</url>
+      </element>
+      <element>
+         <created>2017-11-04T22:25:29.008Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/10</element>
+            <element>https://rickandmortyapi.com/api/episode/28</element>
+         </episode>
+         <gender>Male</gender>
+         <id>18</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/18.jpeg</image>
+         <location>
+            <name>Citadel of Ricks</name>
+            <url>https://rickandmortyapi.com/api/location/3</url>
+         </location>
+         <name>Antenna Morty</name>
+         <origin>
+            <name>unknown</name>
+            <url />
+         </origin>
+         <species>Human</species>
+         <status>Alive</status>
+         <type>Human with antennae</type>
+         <url>https://rickandmortyapi.com/api/character/18</url>
+      </element>
+      <element>
+         <created>2017-11-04T22:28:13.756Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/10</element>
+         </episode>
+         <gender>Male</gender>
+         <id>19</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/19.jpeg</image>
+         <location>
+            <name>unknown</name>
+            <url />
+         </location>
+         <name>Antenna Rick</name>
+         <origin>
+            <name>unknown</name>
+            <url />
+         </origin>
+         <species>Human</species>
+         <status>unknown</status>
+         <type>Human with antennae</type>
+         <url>https://rickandmortyapi.com/api/character/19</url>
+      </element>
+      <element>
+         <created>2017-11-04T22:34:53.659Z</created>
+         <episode>
+            <element>https://rickandmortyapi.com/api/episode/8</element>
+         </episode>
+         <gender>Male</gender>
+         <id>20</id>
+         <image>https://rickandmortyapi.com/api/character/avatar/20.jpeg</image>
+         <location>
+            <name>Interdimensional Cable</name>
+            <url>https://rickandmortyapi.com/api/location/6</url>
+         </location>
+         <name>Ants in my Eyes Johnson</name>
+         <origin>
+            <name>unknown</name>
+            <url />
+         </origin>
+         <species>Human</species>
+         <status>unknown</status>
+         <type>Human with ants in his eyes</type>
+         <url>https://rickandmortyapi.com/api/character/20</url>
+      </element>
+   </results>
+</root>

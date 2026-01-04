@@ -1,0 +1,1 @@
+Zettelkasten - Sistema de anotações e gerenciamento de conhecimento

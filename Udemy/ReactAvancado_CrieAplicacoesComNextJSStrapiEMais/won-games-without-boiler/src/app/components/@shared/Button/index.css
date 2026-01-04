@@ -1,0 +1,49 @@
+.won-games__button {
+  all: unset;
+
+  text-align: center;
+
+  padding: var(--spacing-xxs);
+  border-radius: var(--border-radius);
+
+  background: linear-gradient(180deg, #ff5f5f 0%, #f062c0 50%);
+  color: var(--white);
+
+  cursor: pointer;
+}
+
+.button-small {
+  height: 3rem;
+  font-size: var(--font-xs);
+}
+
+.button-medium {
+  height: 4rem;
+  padding: var(--spacing-m);
+  font-size: var(--font-m);
+}
+
+.button-large {
+  height: 5rem;
+  padding: var(--spacing-l);
+  font-size: var(--font-l);
+}
+
+.full-width {
+  width: 100%;
+}
+
+.button-icon {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.button-icon svg {
+  width: 1.5rem;
+}
+
+.button-icon svg + span {
+  margin-left: var(--spacing-xxs);
+}

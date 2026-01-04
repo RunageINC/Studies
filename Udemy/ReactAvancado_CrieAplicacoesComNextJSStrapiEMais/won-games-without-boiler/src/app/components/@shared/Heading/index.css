@@ -1,0 +1,40 @@
+.won-games__heading {
+  font-weight: var(--font-bold);
+}
+
+.heading-l {
+  font-size: var(--font-xl);
+}
+
+.heading-xl {
+  font-size: var(--font-xxl);
+}
+
+.heading-white {
+  color: var(--white);
+}
+
+.heading-black {
+  color: var(--black);
+}
+
+.heading-line-left {
+  padding-left: var(--spacing-xxs);
+
+  border-left: 0.7rem solid var(--secondary);
+}
+
+.heading-line-bottom {
+  position: relative;
+
+  margin-bottom: var(--spacing-m);
+}
+
+.heading-line-bottom::after {
+  position: absolute;
+  left: 0%;
+  bottom: -1rem;
+  content: "";
+  width: 5rem;
+  border-bottom: 0.5rem solid var(--primary);
+}

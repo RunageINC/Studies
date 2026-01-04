@@ -1,0 +1,3 @@
+- Not ordered
+- Fastest to be generated and inserted
+- Legible

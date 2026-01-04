@@ -1,0 +1,44 @@
+.todoBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 60vw;
+}
+
+.taskForm {
+  margin-top: calc(0px - 1.75rem);
+  width: 100%;
+
+  display: flex;
+  gap: 0.5rem;
+}
+
+.todoList {
+  width: 100%;
+
+  margin-top: 4rem;
+}
+
+.todoListCaptions {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.todoListBody {
+  margin-top: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  margin-bottom: 2rem;
+}

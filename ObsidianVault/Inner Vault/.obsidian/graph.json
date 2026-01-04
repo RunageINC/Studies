@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag: #TypeScript",
+      "color": {
+        "a": 1,
+        "rgb": 35056
+      }
+    },
+    {
+      "query": "tag: #Node",
+      "color": {
+        "a": 1,
+        "rgb": 652837
+      }
+    },
+    {
+      "query": "tag: #JavaScript  ",
+      "color": {
+        "a": 1,
+        "rgb": 12750336
+      }
+    },
+    {
+      "query": "path:\"6 - Main Notes/HTML\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 1714810
+      }
+    },
+    {
+      "query": "path:\"6 - Main Notes/Testing\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14185708
+      }
+    },
+    {
+      "query": "path:\"6 - Main Notes/System Design\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 12748287
+      }
+    },
+    {
+      "query": "tag: #NestJS  ",
+      "color": {
+        "a": 1,
+        "rgb": 15749505
+      }
+    },
+    {
+      "query": "tag: #Testing",
+      "color": {
+        "a": 1,
+        "rgb": 16775792
+      }
+    },
+    {
+      "query": "tag: #General",
+      "color": {
+        "a": 1,
+        "rgb": 8037119
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.26079915364583,
+  "lineSizeMultiplier": 1.202978515625,
+  "collapse-forces": false,
+  "centerStrength": 0.50390625,
+  "repelStrength": 9.98860677083333,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.1702204890869105,
+  "close": false
+}
