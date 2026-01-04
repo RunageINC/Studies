@@ -183,3 +183,9 @@ O primeiro passo é de deletar os recursos e recriar apontando para o S3. Em apl
 Vale ressaltar que dentro do pulumi cloud, não teremos uma informação sobre a stack, dado que quem irá gerenciar vai ser o S3 e não a Cloud.
 
 Após isso, algumas alterações serão necessárias nas pipelines. Os novos arquivos estarão dentro de `s3cloud/`, sendo apenas as credenciais da AWS sendo adicionadas e a cloud-url que vai ser usada apontando para o bucket S3 que contém os arquivos de estado.
+
+Vale lembrar que o Bot também vai deixar de funcionar, deixando de comentar na PR. Para voltarem os comentários é necessário um desenvolvimento para isso.
+
+Caso haja algum erro de deploy, vale conferir o nome da stack.
+
+A env de PULUMI_CONFIG_PASSPHRASE deve ser definida caso haja essa definição nos steps de criação. Caso contrário, não.
