@@ -4,169 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "ce89ab9c5f66c6ca",
+        "id": "25a8c7b65faa50a7",
         "type": "tabs",
         "children": [
           {
-            "id": "0fde67f6ce6d270c",
+            "id": "d05b7b8297271300",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "6 - Main Notes/AWS/ECS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "7 - Kanban/Daily.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    null,
+                    false,
+                    false
+                  ]
                 }
               },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "ECS"
-            }
-          },
-          {
-            "id": "6778f1f3a2737adb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Networking and Routing/Subnets.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Subnets"
-            }
-          },
-          {
-            "id": "f2fa42a79e76d748",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Networking and Routing/VPC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "VPC"
-            }
-          },
-          {
-            "id": "b3362334a7a34baf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/Networking and Routing/Route Table.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Route Table"
-            }
-          },
-          {
-            "id": "1e2af0a9dd812c40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/AWS/Spot Instance.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Spot Instance"
-            }
-          },
-          {
-            "id": "6c71ce136dd33536",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/lb-explanation-subnets.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "lb-explanation-subnets.excalidraw"
-            }
-          },
-          {
-            "id": "7e0e9f1bdebc8d40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Main Notes/AWS/Fargate.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Fargate"
+              "icon": "lucide-trello",
+              "title": "Daily"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "convergente",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -295,7 +158,7 @@
             }
           },
           {
-            "id": "cd4f7d8bcd6680d5",
+            "id": "0ba6c2cf6f1fa2ab",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -327,36 +190,37 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "7e0e9f1bdebc8d40",
+  "active": "d05b7b8297271300",
   "lastOpenFiles": [
-    "6 - Main Notes/Serverless.md",
-    "6 - Main Notes/AWS/Fargate.md",
-    "6 - Main Notes/AWS/EC2.md",
-    "6 - Main Notes/AWS/Spot Instance.md",
-    "6 - Main Notes/AWS/ECS.md",
-    "6 - Main Notes/Networking and Routing/Route Table.md",
-    "6 - Main Notes/AWS/ALB.md",
-    "6 - Main Notes/Networking and Routing/Load Balancer.md",
-    "Excalidraw/lb-explanation-subnets.excalidraw.md",
-    "6 - Main Notes/Networking and Routing/VPC.md",
-    "6 - Main Notes/AWS/Private vs Public vs Elastic IP.md",
-    "6 - Main Notes/Networking and Routing/Untitled.md",
-    "6 - Main Notes/Networking and Routing/NAT.md",
+    "6 - Main Notes/Untitled Kanban.md",
+    "Excalidraw/Drawing 2026-01-05 17.56.43.excalidraw.md",
+    "7 - Kanban/Daily.md",
+    "Meridian/Phone Tests.md",
+    "Meridian/Plaid Docs.md",
+    "Meridian/Pasted image 20250904205001.png",
+    "Meridian/Neobank.md",
+    "Meridian/Meridian - Work Related.md",
+    "Meridian/Meridian.md",
+    "Meridian/Info Icons.md",
+    "Meridian/Important Notes For Features.md",
+    "Meridian/Identity Verification Flow (IDV).md",
+    "Meridian/Finances Project.md",
+    "Meridian/Error Report Template.md",
+    "Meridian/env meridian.md",
+    "Meridian/Drawing 2025-05-14 22.24.25.excalidraw.md",
+    "Meridian/Deployment Process.md",
+    "Meridian/Back End.md",
+    "Meridian/OTP And Stuff Like That.md",
+    "7 - Kanban/Studies Kanban.md",
+    "7 - Kanban/Daily Tasks.md",
+    "7 - Kanban/Untitled.md",
+    "6 - Main Notes/Meditação/Meditação e Chakras.md",
+    "6 - Main Notes/Meditação/Tattva Shuddi.md",
+    "6 - Main Notes/Meditação/Chakras.md",
+    "6 - Main Notes/Meditação/3 Shaktis.md",
+    "6 - Main Notes/Meditação/Armas Mântricas para Proteção.md",
     "6 - Main Notes/Networking and Routing",
-    "6 - Main Notes/AWS/Internet Gateway.md",
-    "6 - Main Notes/Networking and Routing/Subnets.md",
-    "6 - Main Notes/AWS/Edge Locations - Points of Presence.md",
-    "4 - Indexes/DevOps & Architecture.md",
-    "4 - Indexes/Front End.md",
-    "6 - Main Notes/AWS/App Runner.md",
-    "6 - Main Notes/DevOps/Pulumi.md",
-    "6 - Main Notes/www.pulumi.com.md",
-    "6 - Main Notes/DevOps/IaC - Infrastructure as Code.md",
-    "6 - Main Notes/DevOps/IAC Explicação.excalidraw.md",
     "Pasted image 20260104153800.png",
-    "6 - Main Notes/DevOps/Docker Compose.md",
-    "6 - Main Notes/DevOps/Docker.md",
-    "6 - Main Notes/High Order Function.md",
     "6 - Main Notes/IaC",
     "6 - Main Notes/Python",
     "Pasted image 20250501002626.png",
@@ -364,7 +228,6 @@
     "Pasted image 20250321221824.png",
     "5w2h-diagram.png",
     "Meridian/Pasted image 20251107171933.png",
-    "Meridian/Pasted image 20250904205001.png",
     "Meridian/Pasted image 20250523095623.png",
     "Meridian/Pasted image 20250514181335.png",
     "Meridian/Pasted image 20251107171956.png",
