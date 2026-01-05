@@ -14,6 +14,8 @@ Além disso, as réplicas estarão embaixo de subnets, seccionadas através da n
 
 ## Criando um ECS
 
+> Diferente do App Runner, o ECS não comporta execução de Source Code.
+
 Seguindo os mesmos passos de todas as outras criações, um ECS é bem simples de se criar.
 
 Para o ECS, podemos ter tanto Fargate quanto EC2. Nesse caso, vamos pela linha do Fargate.
@@ -181,3 +183,56 @@ Podemos conferir que funcionou dentro da Inbound Rules:
 ## Automação do Deploy no novo fluxo
 
 Por hora, teríamos que criar uma nova revisão e alterar a tag na mão para cada novo deploy. Hora de automatizar.
+
+Faremos:
+
+- A criação de uma nova revisão
+- Update no server com o deploy
+
+É importante notar que dentro da task definition na action do github, temos um json declarativo com os metadados. E isso precisa ser trabalhado do lado da action também.
+
+> É possível criar uma task definition com json na AWS também
+
+É possível ter um repo apartado para isso ou estar dentro da própria app. Por razões óbvias, o task definition está vazio mas está dentro da pasta **.aws**.
+
+Todas as alterações feitas no fluxo estarão dentro da pasta de workflows do git.
+
+> Podemos ter agendamentos para rodar o scan do Trivy para verificar vulns
+> Parâmetros de hardware (cpu, memória, etc) podem ser alterados dentro do task definition json
+
+```yaml
+- name: Render task definition
+  id: render-task-definition
+  uses: aws-actions/render-task-definition@v1
+  with:
+    task-definition: .aws/task-definition.json
+    container-name: widget-server
+    image: ${{ steps.login-ecr.outputs.registry }}/${{ vars.ECR_REPOSITORY }}:${{ steps.generate-image-tag.outputs.sha }}
+
+- name: Deploy to Amazon ECS
+  id: deploy-to-amazon-ecs
+  uses: aws-actions/amazon-ecs-deploy-task-definition@v2
+  with:
+    task-definition: ${{ steps.render-task-definition.outputs.task-definition }}
+    service: widget-server
+    cluster: ${{ vars.ECS_CLUSTER }}
+    wait-for-service-stability: true
+```
+
+Se tudo der certo ao fazer um deploy, iremos ver a troca das instâncias e dos IP's (inclusive mostrando como funciona o de-registration delay), para que o LB olhe para as novas instâncias.
+
+> É possível passar as env vars dentro do próprio yaml ao invés de criar no github:
+
+```yaml
+name: widget-server pipe
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  ECR_REPOSITORY: widget-server
+```
+
+> Dessa forma, o env é extraído do mesmo jeito.

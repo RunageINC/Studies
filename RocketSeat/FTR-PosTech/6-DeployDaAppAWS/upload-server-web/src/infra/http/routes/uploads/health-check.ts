@@ -16,7 +16,7 @@ export const healthCheckRouter: FastifyPluginAsyncZod = async (server) => {
     "/health",
     { schema: healthCheckRouteDocSchema },
     async (_request, reply) => {
-      return reply.status(200).send({ message: "OK" });
+      return reply.status(200).send({ message: "OK no ECS" });
     }
   );
 };
