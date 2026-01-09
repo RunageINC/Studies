@@ -8,8 +8,9 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d05b7b8297271300",
+            "id": "be5b7f3e07ff69c2",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "kanban",
               "state": {
@@ -18,18 +19,64 @@
                   "kanban-plugin": "board",
                   "list-collapse": [
                     false,
-                    false,
                     null,
+                    false,
+                    false,
                     false,
                     false
                   ]
                 }
               },
+              "pinned": true,
               "icon": "lucide-trello",
               "title": "Daily"
             }
+          },
+          {
+            "id": "f2ceb046f07cf414",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "8 - Personal Projects/Planejamento Semanal/Planejamento.canvas",
+                "viewState": {
+                  "x": 1078.7707095179185,
+                  "y": 769.5433102740781,
+                  "zoom": -0.4627542049908848
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Planejamento"
+            }
+          },
+          {
+            "id": "ccc60ce4941e3c6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/IA/Lang Chain.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lang Chain"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Comer o sapo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 312.5
   },
   "right": {
     "id": "ec033ef36d65152e",
@@ -190,55 +237,55 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d05b7b8297271300",
+  "active": "ccc60ce4941e3c6c",
   "lastOpenFiles": [
-    "6 - Main Notes/Untitled Kanban.md",
-    "Excalidraw/Drawing 2026-01-05 17.56.43.excalidraw.md",
+    "6 - Main Notes/IA/Prompt Engineering.md",
+    "8 - Personal Projects/Planejamento Semanal/Planejamento.canvas",
+    "6 - Main Notes/IA/IA.md",
+    "6 - Main Notes/IA/Conceitos e Algorítmos.md",
+    "6 - Main Notes/IA/Fundamentos e Subáreas.md",
+    "6 - Main Notes/IA/Linha do Tempo.md",
+    "6 - Main Notes/IA/Tipos de IA.md",
     "7 - Kanban/Daily.md",
-    "Meridian/Phone Tests.md",
-    "Meridian/Plaid Docs.md",
-    "Meridian/Pasted image 20250904205001.png",
-    "Meridian/Neobank.md",
-    "Meridian/Meridian - Work Related.md",
-    "Meridian/Meridian.md",
-    "Meridian/Info Icons.md",
-    "Meridian/Important Notes For Features.md",
-    "Meridian/Identity Verification Flow (IDV).md",
-    "Meridian/Finances Project.md",
-    "Meridian/Error Report Template.md",
-    "Meridian/env meridian.md",
-    "Meridian/Drawing 2025-05-14 22.24.25.excalidraw.md",
-    "Meridian/Deployment Process.md",
-    "Meridian/Back End.md",
-    "Meridian/OTP And Stuff Like That.md",
-    "7 - Kanban/Studies Kanban.md",
-    "7 - Kanban/Daily Tasks.md",
-    "7 - Kanban/Untitled.md",
+    "Screenshot 2026-01-08 at 19.33.39.png",
+    "Screenshot 2026-01-08 at 19.32.59.png",
+    "Screenshot 2026-01-08 at 19.32.44.png",
+    "Screenshot 2026-01-08 at 19.32.06.png",
+    "Screenshot 2026-01-08 at 19.31.51.png",
+    "Screenshot 2026-01-08 at 19.31.32.png",
+    "Screenshot 2026-01-08 at 19.31.04.png",
+    "6 - Main Notes/IA/Avanços e Desafios.md",
     "6 - Main Notes/Meditação/Meditação e Chakras.md",
-    "6 - Main Notes/Meditação/Tattva Shuddi.md",
-    "6 - Main Notes/Meditação/Chakras.md",
-    "6 - Main Notes/Meditação/3 Shaktis.md",
-    "6 - Main Notes/Meditação/Armas Mântricas para Proteção.md",
+    "6 - Main Notes/IA/Abordagens e Aplicações.md",
+    "Screenshot 2026-01-08 at 18.19.42.png",
+    "6 - Main Notes/Gestão de Tempo e Produtividade/Desacelerar para acelerar.md",
+    "6 - Main Notes/Gestão de Tempo e Produtividade/Matriz de Eisenhower.md",
+    "6 - Main Notes/Gestão de Tempo e Produtividade/Gestão de Tempo e Produtividade.md",
+    "Meridian/Thought Process.md",
+    "Meridian/Virtual Account Tables.md",
+    "Meridian/Testing Login Phone.md",
+    "Meridian/TODO.md",
+    "Meridian/Sentry Errors.md",
+    "Meridian/Retool.md",
+    "Meridian/Remittances Module.excalidraw.md",
+    "Meridian/Flows.excalidraw.md",
+    "Meridian/Plaid Docs.md",
+    "Meridian/Phone Tests.md",
+    "Meridian/Pasted image 20250904205001.png",
+    "Meridian/Pasted image 20250523095623.png",
+    "Meridian/Neobank.md",
+    "Meridian/OTP And Stuff Like That.md",
+    "6 - Main Notes/Drawing",
+    "6 - Main Notes/IA/Untitled",
+    "6 - Main Notes/IA",
+    "8 - Personal Projects/Planejamento Semanal",
+    "8 - Personal Projects/Untitled.base",
+    "6 - Main Notes/Gestão de Tempo e Produtividade",
     "6 - Main Notes/Networking and Routing",
-    "Pasted image 20260104153800.png",
     "6 - Main Notes/IaC",
     "6 - Main Notes/Python",
-    "Pasted image 20250501002626.png",
-    "Pasted image 20250401152550.png",
-    "Pasted image 20250321221824.png",
-    "5w2h-diagram.png",
-    "Meridian/Pasted image 20251107171933.png",
-    "Meridian/Pasted image 20250523095623.png",
-    "Meridian/Pasted image 20250514181335.png",
-    "Meridian/Pasted image 20251107171956.png",
     "8 - Personal Projects/App de Acessibilidade",
-    "8 - Personal Projects/Papisa Systems",
-    "6 - Main Notes/Untitled.base",
     "Untitled.canvas",
-    "8 - Personal Projects/Projects/Gaming Agenda/FFTA2",
-    "8 - Personal Projects/Projects/Gaming Agenda",
-    "6 - Main Notes/Problem Solving",
-    "8 - Personal Projects/BeachMenu",
     "Persistence.canvas",
     "7 - Kanban/Untitled.canvas",
     "6 - Main Notes/Meli/Info360 Changes.canvas",

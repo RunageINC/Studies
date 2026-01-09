@@ -1,4 +1,6 @@
 
+## Intro
+
 Um problema é uma condição indesejada que demanda uma solução. Ele surge da **diferença entre a situação atual e o estado ideal desejado**. A definição precisa do problema é o primeiro passo para encontrar uma solução adequada.
 
 Entendimentos equivocados geram esforços em soluções incorretas

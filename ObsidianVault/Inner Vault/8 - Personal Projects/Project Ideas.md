@@ -213,3 +213,8 @@ Books
 5. BRAVE NEW WORLD 
 6. FARENHEIT 451 
 7. THE TYNDALE BIBLE
+
+## Projetos
+
+- Projeto para identificar textos em tela e transpor eles para texto em clipboard através de um atalho
+	- Ex: Cmd + Shift + 6 -> seleciona uma área -> o texto é copiado

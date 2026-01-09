@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"361967d4727f56d1","type":"file","file":"8 - Personal Projects/Planejamento Semanal/Segunda.md","x":-460,"y":-280,"width":400,"height":1620,"color":"5"},
+		{"id":"779323eecf582454","type":"file","file":"8 - Personal Projects/Planejamento Semanal/Terça.md","x":-40,"y":-280,"width":400,"height":1620,"color":"4"},
+		{"id":"968dd893c10dadfa","type":"file","file":"8 - Personal Projects/Planejamento Semanal/Quarta.md","x":380,"y":-280,"width":400,"height":1620,"color":"6"},
+		{"id":"d78c876b6055f05b","type":"file","file":"8 - Personal Projects/Planejamento Semanal/Quinta.md","x":800,"y":-280,"width":400,"height":1620,"color":"2"},
+		{"id":"6dd95aac57ac7061","type":"file","file":"8 - Personal Projects/Planejamento Semanal/Sexta.md","x":1240,"y":-280,"width":400,"height":1620,"color":"1"},
+		{"id":"d0f89fa1965597ea","type":"file","file":"8 - Personal Projects/Planejamento Semanal/Sábado.md","x":1680,"y":-280,"width":400,"height":820,"color":"#1b0aff"},
+		{"id":"104149cdc62ed340","type":"file","file":"8 - Personal Projects/Planejamento Semanal/Domingo.md","x":2120,"y":-280,"width":400,"height":820,"color":"#ff8800"},
+		{"id":"df28b84118e52862","type":"text","text":"# Schedule semanal","x":635,"y":-600,"width":565,"height":50},
+		{"id":"0a5def17223106ed","type":"text","text":"#### Esse schedule pode sempre mudar, de acordo com as necessidades do momento. Também temos que considerar eventuais casualidades no schedule como interagir com outras pessoas ou ter que me deslocar. Pra isso, o schedule deve funcionar como ajuda nesses momentos e não atraso. É um guia e não uma regra","x":635,"y":-520,"width":565,"height":180},
+		{"id":"fcb17161911b85a3","type":"text","text":"# MES 1","x":848,"y":-700,"width":140,"height":60}
+	],
+	"edges":[]
+}
