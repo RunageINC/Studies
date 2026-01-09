@@ -11,42 +11,43 @@ kanban-plugin: board
 - [ ] Planejar troca da cadeira
 - [ ] Pedir ajuda com organização ao Rudy
 - [ ] Traçar um plano para o E2E de remittances
-- [ ] Cleanup Remittances
 
 
-## For Tomorrow - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.setDate(t.getDate()+1),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">09/01/2026</span><span type="end"></span>
+## For Tomorrow - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.setDate(t.getDate()+1),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">10/01/2026</span><span type="end"></span>
 
 - [ ] Cobrar Nutri
 - [ ] Verificar as passagens pra LA
 
 
-## To Do - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">08/01/2026</span><span type="end"></span>
+## To Do - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">09/01/2026</span><span type="end"></span>
 
-- [ ] Organizar financeiro
-- [ ] Ver o financiamento do ape
-- [ ] Ver meu look pro corrida
 - [ ] Ver meu plano de saúde
 - [ ] Passar a limpo as anotações de nivelamento em seus devidos tópicos para o Obsidian
 - [ ] Ler Sentry Doc
+- [ ] Cleanup Remittances
+	- [ ] Mapear
+	- [ ] Limpar
 - [ ] Ler Vercel Docs
-- [ ] Changes by Rudy
-	
-	- Request more information
-	- Open previous modal in step 2 with prefilled info (txn, documents, subject
-	- Change email body template
-	- Proceed to create a new form
 - [ ] Create submitted screen
 - [ ] Ver monitor novo Arzopa
 
 
 ## Doing
 
+- [ ] Ver o financiamento do ape
+- [ ] Ver meu look pro corrida
 - [ ] Finalizar o EDD Forms tasks
 	
 	- [x] Upload
 	- [ ] Form Creation
 	- [ ] Form Submission
 	- [ ] Events registered on retool
+- [ ] Changes by Rudy
+	
+	- Request more information
+	- Open previous modal in step 2 with prefilled info (txn, documents, subject
+	- Change email body template
+	- Proceed to create a new form
 - [ ] Arrumar o Dash de Finanças (junto com o Massimo)
 	
 	### Scott comments
@@ -84,6 +85,7 @@ kanban-plugin: board
 
 **Complete**
 - [x] Marcar Tattoo
+- [x] Organizar financeiro
 - [x] Change templated email to have a non-changeable part
 - [x] Remove required from description
 - [x] https://meridianpay.slack.com/archives/C07KRG08BT3/p1767642393152309

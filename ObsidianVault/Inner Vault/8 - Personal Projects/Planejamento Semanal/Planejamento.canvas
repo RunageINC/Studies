@@ -9,7 +9,9 @@
 		{"id":"104149cdc62ed340","type":"file","file":"8 - Personal Projects/Planejamento Semanal/Domingo.md","x":2120,"y":-280,"width":400,"height":820,"color":"#ff8800"},
 		{"id":"df28b84118e52862","type":"text","text":"# Schedule semanal","x":635,"y":-600,"width":565,"height":50},
 		{"id":"0a5def17223106ed","type":"text","text":"#### Esse schedule pode sempre mudar, de acordo com as necessidades do momento. Também temos que considerar eventuais casualidades no schedule como interagir com outras pessoas ou ter que me deslocar. Pra isso, o schedule deve funcionar como ajuda nesses momentos e não atraso. É um guia e não uma regra","x":635,"y":-520,"width":565,"height":180},
-		{"id":"fcb17161911b85a3","type":"text","text":"# MES 1","x":848,"y":-700,"width":140,"height":60}
+		{"id":"fcb17161911b85a3","type":"text","text":"# MES 1","x":848,"y":-700,"width":140,"height":60},
+		{"id":"cd341ff2715172a3","x":800,"y":1420,"width":250,"height":60,"type":"text","text":"# Financeiro"},
+		{"id":"229860a1ae838b11","x":520,"y":1500,"width":765,"height":60,"type":"text","text":"https://docs.google.com/spreadsheets/d/15sBv2vfDpncnOig9OadSce524UrkceCulBPLIDCjcSc/edit?gid=0#gid=0"}
 	],
 	"edges":[]
 }

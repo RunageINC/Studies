@@ -41,8 +41,8 @@
               "state": {
                 "file": "8 - Personal Projects/Planejamento Semanal/Planejamento.canvas",
                 "viewState": {
-                  "x": 1078.7707095179185,
-                  "y": 769.5433102740781,
+                  "x": 1103.1229792697804,
+                  "y": 1355.2794827267517,
                   "zoom": -0.4627542049908848
                 }
               },
@@ -52,12 +52,12 @@
             }
           },
           {
-            "id": "ccc60ce4941e3c6c",
+            "id": "8ace151bdc943a7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/IA/Lang Chain.md",
+                "file": "Meridian/Thought Process.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -72,11 +72,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lang Chain"
+              "title": "Thought Process"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,16 +236,19 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ccc60ce4941e3c6c",
+  "active": "be5b7f3e07ff69c2",
   "lastOpenFiles": [
-    "6 - Main Notes/IA/Prompt Engineering.md",
+    "Meridian/Thought Process.md",
     "8 - Personal Projects/Planejamento Semanal/Planejamento.canvas",
+    "8 - Personal Projects/Planejamento Semanal/Untitled.md",
+    "7 - Kanban/Daily.md",
+    "6 - Main Notes/IA/Lang Chain.md",
+    "6 - Main Notes/IA/Prompt Engineering.md",
     "6 - Main Notes/IA/IA.md",
     "6 - Main Notes/IA/Conceitos e Algorítmos.md",
     "6 - Main Notes/IA/Fundamentos e Subáreas.md",
     "6 - Main Notes/IA/Linha do Tempo.md",
     "6 - Main Notes/IA/Tipos de IA.md",
-    "7 - Kanban/Daily.md",
     "Screenshot 2026-01-08 at 19.33.39.png",
     "Screenshot 2026-01-08 at 19.32.59.png",
     "Screenshot 2026-01-08 at 19.32.44.png",
@@ -261,7 +263,6 @@
     "6 - Main Notes/Gestão de Tempo e Produtividade/Desacelerar para acelerar.md",
     "6 - Main Notes/Gestão de Tempo e Produtividade/Matriz de Eisenhower.md",
     "6 - Main Notes/Gestão de Tempo e Produtividade/Gestão de Tempo e Produtividade.md",
-    "Meridian/Thought Process.md",
     "Meridian/Virtual Account Tables.md",
     "Meridian/Testing Login Phone.md",
     "Meridian/TODO.md",
@@ -273,8 +274,6 @@
     "Meridian/Phone Tests.md",
     "Meridian/Pasted image 20250904205001.png",
     "Meridian/Pasted image 20250523095623.png",
-    "Meridian/Neobank.md",
-    "Meridian/OTP And Stuff Like That.md",
     "6 - Main Notes/Drawing",
     "6 - Main Notes/IA/Untitled",
     "6 - Main Notes/IA",

@@ -16,7 +16,6 @@ prompt = ChatPromptTemplate.from_messages([
 
 llm = ChatOpenAI(model="gpt-5-nano", temperature=0.9)
 
-# strategy="last" garante que mostra sempre as últimas mensagens, e o start_on define o ponto de partida a partir das últimas mensagens.
 # O include_system=True garante que o sistema seja incluído na mensagem, e o allow_partial=False garante que não seja parcial, ou seja a mensagem do assistente não será cortada.
 def prepare_inputs(payload: dict) -> dict:
     raw_history = payload.get("raw_history", [])
