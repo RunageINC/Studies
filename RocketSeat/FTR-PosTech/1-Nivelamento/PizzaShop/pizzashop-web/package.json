@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:test": "vite --port 50789 --mode test",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest",
+    "e2e:ui": "playwright test --ui"
   },
   "overrides": {
     "react-is": "^19.2.0"
@@ -42,6 +45,7 @@
     "zod": "^4.3.5"
   },
   "devDependencies": {
+    "@playwright/test": "^1.57.0",
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",

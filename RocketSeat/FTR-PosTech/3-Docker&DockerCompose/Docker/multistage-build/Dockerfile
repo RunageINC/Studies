@@ -52,4 +52,4 @@ ENV SPECIFIC_ENDPOINT=https://359c00707151ca0da42812c3a39add61.r2.cloudflarestor
 
 EXPOSE 3333
 
-CMD ["node", "dist/infra/http/server.js"]
+CMD ["node -r newrelic", "dist/infra/http/server.js"]

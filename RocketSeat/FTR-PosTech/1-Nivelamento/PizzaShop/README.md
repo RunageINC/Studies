@@ -37,3 +37,7 @@ Nos permite alterar as meta tags (como título diferente para cada página). O [
 Pressupõe que uma atualização de dados através da interface deu certo. Por exemplo, se estamos lidando com um pequeno form de atualizar nomes, podemos pressupor mesmo que a operação não tenha concluído totalmente no back-end que tenha dado certo. Se der errado, podemos fazer um rollback.
 
 Muito útil em casos pequenos como atualizações pequenas de nome e etc.
+
+## E2E
+
+Nem todo E2E precisa rodar com mocks.

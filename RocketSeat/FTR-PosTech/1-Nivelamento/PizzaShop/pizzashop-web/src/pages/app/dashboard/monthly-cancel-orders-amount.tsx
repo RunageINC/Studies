@@ -2,6 +2,7 @@ import { getMonthlyCanceledOrdersAmount } from "@/api/get-monthly-canceled-order
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useQuery } from "@tanstack/react-query";
 import { DollarSign } from "lucide-react";
+import { MetricCardSkeleton } from "./metric-card-skeleton";
 
 export function MonthlyCancelOrdersAmountCard() {
   const { data: monthlyCanceledOrdersAmount } = useQuery({
@@ -9,7 +10,7 @@ export function MonthlyCancelOrdersAmountCard() {
     queryFn: getMonthlyCanceledOrdersAmount,
   });
 
-  return (
+  return monthlyCanceledOrdersAmount ? (
     <Card>
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
         <CardTitle>Cancelamentos (mês)</CardTitle>
@@ -17,21 +18,21 @@ export function MonthlyCancelOrdersAmountCard() {
       </CardHeader>
       <CardContent className="space-y-1">
         <span className="text-2xl font-bold tracking-tight">
-          {monthlyCanceledOrdersAmount?.amount.toLocaleString("pt-BR")}
+          {monthlyCanceledOrdersAmount.amount.toLocaleString("pt-BR")}
         </span>
         <p className="text-muted-foreground text-xs">
-          {monthlyCanceledOrdersAmount?.diffFromLastMonth &&
-          monthlyCanceledOrdersAmount?.diffFromLastMonth >= 0 ? (
+          {monthlyCanceledOrdersAmount.diffFromLastMonth &&
+          monthlyCanceledOrdersAmount.diffFromLastMonth >= 0 ? (
             <>
               <span className="text-rose-500 dark:text-rose-400">
-                +{monthlyCanceledOrdersAmount?.diffFromLastMonth}%
+                +{monthlyCanceledOrdersAmount.diffFromLastMonth}%
               </span>{" "}
               em relação ao mês passado
             </>
           ) : (
             <>
               <span className="text-emerald-500 dark:text-emerald-400">
-                {monthlyCanceledOrdersAmount?.diffFromLastMonth}%
+                {monthlyCanceledOrdersAmount.diffFromLastMonth}%
               </span>{" "}
               em relação ao mês passado
             </>
@@ -39,5 +40,7 @@ export function MonthlyCancelOrdersAmountCard() {
         </p>
       </CardContent>
     </Card>
+  ) : (
+    <MetricCardSkeleton />
   );
 }

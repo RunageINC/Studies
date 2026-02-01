@@ -1,0 +1,46 @@
+{
+  "name": "ai-sdk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "engines": {
+    "node": "20.0.0"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.0",
+    "@ai-sdk/react": "^2.0.0",
+    "@octokit/rest": "^22.0.1",
+    "@openrouter/ai-sdk-provider": "^1.5.4",
+    "ai": "^5.0.0",
+    "lucide-react": "^0.562.0",
+    "marked": "^17.0.1",
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.4.0",
+    "tailwind-scrollbar": "^4.0.2",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@octokit/types": "^16.0.0",
+    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "@ai-sdk/provider": "2.0.1"
+  }
+}
