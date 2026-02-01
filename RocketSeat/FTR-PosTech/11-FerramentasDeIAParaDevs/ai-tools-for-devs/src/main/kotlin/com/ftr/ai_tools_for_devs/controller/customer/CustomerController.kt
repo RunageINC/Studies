@@ -1,55 +1,56 @@
 package com.ftr.ai_tools_for_devs.controller.customer
 
-import Customer
 import com.ftr.ai_tools_for_devs.controller.customer.dto.CustomerRequestDTO
 import com.ftr.ai_tools_for_devs.controller.customer.dto.CustomerResponseDTO
 import com.ftr.ai_tools_for_devs.controller.customer.dto.CustomerResponseDTO.Companion.toResponseDTO
+import com.ftr.ai_tools_for_devs.controller.customer.dto.CustomerUpdateRequestDTO
+import com.ftr.ai_tools_for_devs.service.CustomerService
 import jakarta.validation.Valid
-import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder
 
 @RestController
 @RequestMapping("/customer")
-class CustomerController() {
+class CustomerController(
+    private val customerService: CustomerService
+) {
 
     @GetMapping
-    fun getCustomer(): ResponseEntity<CustomerResponseDTO> {
-        return ResponseEntity.ok(CustomerResponseDTO("test", "12345", "test@test.com"))
+    fun getAllCustomers(): ResponseEntity<List<CustomerResponseDTO>> {
+        val customers = customerService.findAll().map { it.toResponseDTO() }
+        return ResponseEntity.ok(customers)
     }
 
     @GetMapping("/{id}")
-    fun getCustomerById(@PathVariable id: String): ResponseEntity<CustomerResponseDTO> {
-        val numericId = id.toLongOrNull() ?: throw IllegalArgumentException("Invalid ID");
-
-        val customer = Customer(
-            name = "test",
-            phone = "12345",
-            email = "test@test.com"
-        )
-
+    fun getCustomerById(@PathVariable id: Long): ResponseEntity<CustomerResponseDTO> {
+        val customer = customerService.findById(id)
         return ResponseEntity.ok(customer.toResponseDTO())
     }
 
     @PostMapping
-    fun saveCustomer(@RequestBody @Valid body: CustomerRequestDTO): ResponseEntity<Void> {
-        println(body.toString())
-
-        return ResponseEntity(HttpStatus.CREATED)
+    fun createCustomer(@RequestBody @Valid body: CustomerRequestDTO): ResponseEntity<CustomerResponseDTO> {
+        val customer = customerService.create(body)
+        val location = ServletUriComponentsBuilder
+            .fromCurrentRequest()
+            .path("/{id}")
+            .buildAndExpand(customer.id)
+            .toUri()
+        return ResponseEntity.created(location).body(customer.toResponseDTO())
     }
 
     @PutMapping("/{id}")
     fun updateCustomerById(
         @PathVariable id: Long,
-        @RequestBody @Valid update: CustomerRequestDTO
-    ): ResponseEntity<Void> {
-        println(update.toString())
-
-        return ResponseEntity(HttpStatus.OK)
+        @RequestBody @Valid update: CustomerUpdateRequestDTO
+    ): ResponseEntity<CustomerResponseDTO> {
+        val customer = customerService.update(id, update)
+        return ResponseEntity.ok(customer.toResponseDTO())
     }
 
     @DeleteMapping("/{id}")
     fun deleteCustomerById(@PathVariable id: Long): ResponseEntity<Void> {
+        customerService.delete(id)
         return ResponseEntity.noContent().build()
     }
 }

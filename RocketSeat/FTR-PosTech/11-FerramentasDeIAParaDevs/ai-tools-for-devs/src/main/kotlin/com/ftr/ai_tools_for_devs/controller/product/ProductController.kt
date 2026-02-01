@@ -3,68 +3,54 @@ package com.ftr.ai_tools_for_devs.controller.product
 import com.ftr.ai_tools_for_devs.controller.product.dto.ProductRequestDTO
 import com.ftr.ai_tools_for_devs.controller.product.dto.ProductResponseDTO
 import com.ftr.ai_tools_for_devs.controller.product.dto.ProductResponseDTO.Companion.toResponseDTO
-import com.ftr.ai_tools_for_devs.models.Product
+import com.ftr.ai_tools_for_devs.controller.product.dto.ProductUpdateRequestDTO
+import com.ftr.ai_tools_for_devs.service.ProductService
 import jakarta.validation.Valid
-import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
-import java.math.BigDecimal
-import java.util.UUID
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder
 
 @RestController
 @RequestMapping("/product")
-class ProductController() {
+class ProductController(
+    private val productService: ProductService
+) {
 
     @GetMapping
-    fun getProduct(): ResponseEntity<ProductResponseDTO> {
-        return ResponseEntity.ok(
-            Product(
-                name = "test",
-                description = "test product",
-                price = BigDecimal("19.99"),
-                stock = 10
-            ).toResponseDTO()
-        )
+    fun getAllProducts(): ResponseEntity<List<ProductResponseDTO>> {
+        val products = productService.findAll().map { it.toResponseDTO() }
+        return ResponseEntity.ok(products)
     }
 
     @GetMapping("/{id}")
-    fun getProductById(@PathVariable id: String): ResponseEntity<ProductResponseDTO> {
-        val uuid = try {
-            UUID.fromString(id)
-        } catch (e: IllegalArgumentException) {
-            throw IllegalArgumentException("Invalid ID")
-        }
-
-        val product = Product(
-            id = uuid,
-            name = "test",
-            description = "test product",
-            price = BigDecimal("19.99"),
-            stock = 10
-        )
-
+    fun getProductById(@PathVariable id: Long): ResponseEntity<ProductResponseDTO> {
+        val product = productService.findById(id)
         return ResponseEntity.ok(product.toResponseDTO())
     }
 
     @PostMapping
-    fun saveProduct(@RequestBody @Valid body: ProductRequestDTO): ResponseEntity<Void> {
-        println(body.toString())
-
-        return ResponseEntity(HttpStatus.CREATED)
+    fun createProduct(@RequestBody @Valid body: ProductRequestDTO): ResponseEntity<ProductResponseDTO> {
+        val product = productService.create(body)
+        val location = ServletUriComponentsBuilder
+            .fromCurrentRequest()
+            .path("/{id}")
+            .buildAndExpand(product.id)
+            .toUri()
+        return ResponseEntity.created(location).body(product.toResponseDTO())
     }
 
     @PutMapping("/{id}")
     fun updateProductById(
-        @PathVariable id: UUID,
-        @RequestBody @Valid update: ProductRequestDTO
-    ): ResponseEntity<Void> {
-        println(update.toString())
-
-        return ResponseEntity(HttpStatus.OK)
+        @PathVariable id: Long,
+        @RequestBody @Valid update: ProductUpdateRequestDTO
+    ): ResponseEntity<ProductResponseDTO> {
+        val product = productService.update(id, update)
+        return ResponseEntity.ok(product.toResponseDTO())
     }
 
     @DeleteMapping("/{id}")
-    fun deleteProductById(@PathVariable id: UUID): ResponseEntity<Void> {
+    fun deleteProductById(@PathVariable id: Long): ResponseEntity<Void> {
+        productService.delete(id)
         return ResponseEntity.noContent().build()
     }
 }

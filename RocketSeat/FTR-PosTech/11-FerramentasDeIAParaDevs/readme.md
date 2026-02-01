@@ -7,7 +7,7 @@ Básico para rodar o projeto:
 - `.gradlew build`
 - `.gradlew bootRun`
 
-A estrutura de controller, model e dto para o product foram criadas com a IA.
+A única estrutura criada manualmente foi a de customer, de forma simples. Até mesmo a criação de IDs e timestamps dentro dessa entidade, bem como repositórios e serviços, foram geradas pelo agent, assim como todo o restante.
 
 ## Copilot vs Tabnine vs Codeium
 
@@ -31,3 +31,15 @@ A estrutura de controller, model e dto para o product foram criadas com a IA.
 - Escolha o Copilot se quiser o gerador mais popular, completo e mais rápido “em estado bruto”.
 - Escolha o Tabnine se trabalha com código sensível, precisa de conformidade de segurança rígida ou de opção auto-hospedada.
 - Escolha o Codeium se quiser um assistente de código com IA gratuito e muito bom para projetos pessoais ou times pequenos.
+
+## Automatizando tarefas repetitivas
+
+Podemos automatizar, por exemplo, com o Chat GPT, o conventional commit. Dentro do arquivo `autocommit.sh` já temos como funciona a automação dessa função. Já considerando apenas informações recentes, se houver alguma, para evitar consumo de créditos indesejados no GPT.
+
+### Tips e comandos úteis
+
+Chamando o chat da openai diretamente do terminal usando python (depois de estar dentro do ambiente virtual):
+
+> É necessário ter o openai instalado. Se não tiver, basta usar `pip3 install openai`
+
+`openai chat.completions.create -m gpt-4o -g user "Me explique um pouco sobre versionamento com o git"`
