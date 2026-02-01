@@ -4,51 +4,69 @@ kanban-plugin: board
 
 ---
 
-## For Next Week - 12/01/2026
+## For Next Week - 26/01/2026
 
-- [ ] Fechar o financiamento do Ape
-- [ ] Marcar reunião com o Pablo (antes das 18)
-- [ ] Planejar troca da cadeira
-- [ ] Pedir ajuda com organização ao Rudy
-- [ ] Traçar um plano para o E2E de remittances
-
-
-## For Tomorrow - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.setDate(t.getDate()+1),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">10/01/2026</span><span type="end"></span>
-
-- [ ] Cobrar Nutri
-- [ ] Verificar as passagens pra LA
-
-
-## To Do - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">09/01/2026</span><span type="end"></span>
-
-- [ ] Ver meu plano de saúde
-- [ ] Passar a limpo as anotações de nivelamento em seus devidos tópicos para o Obsidian
 - [ ] Ler Sentry Doc
+- [ ] Ler Vercel Docs
+- [ ] Ver monitor novo Arzopa
 - [ ] Cleanup Remittances
 	- [ ] Mapear
 	- [ ] Limpar
-- [ ] Ler Vercel Docs
-- [ ] Create submitted screen
-- [ ] Ver monitor novo Arzopa
+- [ ] Fechar o financiamento do Ape
+- [ ] Passar a limpo as anotações de nivelamento em seus devidos tópicos para o Obsidian
+- [ ] Change env vars on vercel
+- [ ] Planejar troca da cadeira
+- [ ] Pedir ajuda com organização ao Rudy
+
+
+## For Tomorrow - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.setDate(t.getDate()+1),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">31/01/2026</span><span type="end"></span>
+
+- [ ] Cobrar Nutri
+- [ ] Ver meu plano de saúde
+- [ ] Comprar passagens LA no dia 23/01
+- [ ] Verificar as passagens pra LA
+- [ ] Add Retrospective insights to Retro Board
+- [ ] Find improvements on the projects I'm working on
+
+
+## To Do - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">30/01/2026</span><span type="end"></span>
+
+- [ ] Criar um ticket Linear para o Nick para adicionar rules em prod que permite acessar a api via remittances.staging.api-us.meridianapps.dev/risk/v1/manual-reviews
 
 
 ## Doing
 
+- [ ] Traçar um plano para o E2E de remittances
 - [ ] Ver o financiamento do ape
-- [ ] Ver meu look pro corrida
-- [ ] Finalizar o EDD Forms tasks
+
+
+## In Review
+
+
+
+## Done
+
+**Complete**
+- [x] Create submitted screen
+- [x] Listar erros Sentry importantes
+- [x] Testar todo o fluxo do EDD Form
+	
+	```
+	POST {remittancesHost}/risk/v1/provider-cases/{id}/documents form-data 
+	
+	PATCH {remittancesHost}/risk/v1/provider-cases/{id} { "status":"USER_SUBMITTED_DOCUMENT" } 
+	
+	GET {remittancesHost}/risk/v1/provider-cases/{id}
+	```
+	
+	Form id: usrsk-1231231321
+- [x] Finalizar o EDD Forms tasks
 	
 	- [x] Upload
-	- [ ] Form Creation
-	- [ ] Form Submission
-	- [ ] Events registered on retool
-- [ ] Changes by Rudy
-	
-	- Request more information
-	- Open previous modal in step 2 with prefilled info (txn, documents, subject
-	- Change email body template
-	- Proceed to create a new form
-- [ ] Arrumar o Dash de Finanças (junto com o Massimo)
+	- [x] Form Creation
+	- [x] Form Submission
+	- [x] Events registered on retool
+- [x] Arrumar o Dash de Finanças (junto com o Massimo)
 	
 	### Scott comments
 	
@@ -64,28 +82,16 @@ kanban-plugin: board
 	Total deposits was also a value I could not confirm with the transactions table the card value seems very high
 	
 	Wire fees is more important to figure out first though
-- [ ] Listar erros Sentry importantes
-- [ ] Testar todo o fluxo do EDD Form
-	
-	```
-	POST {remittancesHost}/risk/v1/provider-cases/{id}/documents form-data 
-	
-	PATCH {remittancesHost}/risk/v1/provider-cases/{id} { "status":"USER_SUBMITTED_DOCUMENT" } 
-	
-	GET {remittancesHost}/risk/v1/provider-cases/{id}
-	```
-
-
-## In Review
-
-- [ ] Change env vars on vercel
-
-
-## Done
-
-**Complete**
 - [x] Marcar Tattoo
 - [x] Organizar financeiro
+- [x] Ver meu look pro corrida
+- [x] Changes by Rudy
+	
+	- Request more information
+	- Open previous modal in step 2 with prefilled info (txn, documents, subject
+	- Change email body template
+	- Proceed to create a new form
+- [x] Marcar reunião com o Pablo (antes das 18)
 - [x] Change templated email to have a non-changeable part
 - [x] Remove required from description
 - [x] https://meridianpay.slack.com/archives/C07KRG08BT3/p1767642393152309

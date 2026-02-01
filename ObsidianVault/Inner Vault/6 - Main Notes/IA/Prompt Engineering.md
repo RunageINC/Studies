@@ -14,3 +14,11 @@ Quanto maior contexto estamos dando para uma IA, mais eficaz é a resposta conce
 Apesar de maior escrita, a resposta é melhor definida.
 
 Pode-se também pedir para o modelo salvar na memória alguma informação importante que futuramente pode servir para outras coisas.
+
+A grande vantagem é justamente ganhar tempo e economizar nos recursos. Tokens de IA são finitos, e geralmente não cabem toda uma resposta complexa, portanto saber como otimizar os prompts para extrair o máximo na primeira iteração é uma habilidade altamente necessária.
+
+Uma boa analogia para usar com os agentes seria a analogia da Grooming. Conversas muito simples e rasas não são tão efetivas pois não trazem contexto sobre nossos problemas. É necessário fazer uma grooming para passar para o resto do time qual o desafio a ser desenvolvido.
+
+1. [[Tipos de Prompts]]
+2. [[Componentes Básicos e Armadilhas]]
+3. [[Ferramentas para Prompts|Ferramentas para Prompts]]

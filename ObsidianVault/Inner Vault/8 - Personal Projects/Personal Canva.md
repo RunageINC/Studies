@@ -18,6 +18,10 @@
 - [/] Github organization
 - [ ] TBD
 
+
+- [ ] Finalizar o ai-sdk remake.
+	- [ ] As aulas foram criadas em um momento X do SDK e agora ele tem uma série de breaking changes que precisam ser endereçadas.
+
 Personal project
 
 - EUR/USD Yearly rate: 65000

@@ -1,6 +1,6 @@
 | Hora           | Atividade          |                            |
 | -------------- | ------------------ | -------------------------- |
-| 8h00 - 9h00    | Acordar + Café     |                            |
+| 8h25 - 9h00    | Acordar + Café     |                            |
 | 9h00 - 9h40    | Estudo 1 - Pós FTR |                            |
 | 9h40 - 9h50    | Break 1            | Meditação (3 min no agora) |
 | 9h50 - 10h30   | Estudo 2 - Pós FTR |                            |
