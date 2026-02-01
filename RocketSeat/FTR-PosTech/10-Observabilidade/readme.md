@@ -120,3 +120,16 @@ Outra forma seria remover do start e quebrar o cmd em parâmetros:
 ```docker
 CMD ["-r", "newrelic", "dist/server.mjs"]
 ```
+
+---
+
+Diferente
+do Grafana, o New Relic possui uma linguagem de query de logs mais próxima ao SQL, chamada NRQL
+
+Também é possível colocar alertas no New Relic assim como no Grafana Cloud. Os princípios são os mesmos: temos que ter algo agregável e contável por número, temos que ter um threshold a ser atingido e qual a criticidade de cada coisa.
+
+A criação de um alerta no New Relic, assim como no Grafana, é bem explicada na plataforma, sendo a parte mais complicada a definição da query de cada alerta.
+
+Dentro do New Relic podemos agrupar alertas por policy. Essas policies que definirão como será o envio de notificação, como serão os agrupamentos de alertas similares, etc.
+
+Também é possível dentro do alerta configurar um Runbook que é um documento que diz como resolver esse tipo de incidente.
