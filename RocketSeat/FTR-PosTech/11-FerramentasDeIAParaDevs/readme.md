@@ -43,3 +43,18 @@ Chamando o chat da openai diretamente do terminal usando python (depois de estar
 > É necessário ter o openai instalado. Se não tiver, basta usar `pip3 install openai`
 
 `openai chat.completions.create -m gpt-4o -g user "Me explique um pouco sobre versionamento com o git"`
+
+## Ferramentas de Ajuda com IA
+
+**Depuração**
+
+- Utilizando o Sentry, é uma ferramenta que monitora em Real Time a app. Apesar de o Sentry não ser um depurador, ele pode ser usado como uma ferramenta de monitoramento e depuração. A idéia do Sentry é encontrar de forma proativa do que aconteceu, inclusive ele tem capabilities de backtrack do erro, de como aconteceu.
+
+**Gestão de Projetos**
+
+- Linear é uma ótima ferramenta dado suas integrações com criação de branches, funciona bem com markdown language, e possui integrações inclusive com o Sentry para criação de tickets diretamente a partir de erros ou eventos investigados. Assim como outras ferramentas com o Jira, é possível criar projetos e assignar membros, e dentro desses projetos podemos ter issues (tickets) correspondentes a cada atividade. Baseado também no kanban, os tickets se comportam em estados específicos. Outra coisa legal é a integração com o git para criação e tracking de branches. Uma vez criada através do linear, quando abrir uma PR o ticket vai automaticamente para review e ao mergear, para Done.
+
+**Comunicação e Documentação**
+
+- Krisp, Firefly e Otter.ai são assistentes virtuais que conseguem transcrever reuniões. O Google também consegue transcrever em diversos idiomas.
+- Doxygen é uma lib em python que consegue gerar documentações de maneira descomplicada para serviços white label. Para isso, basta ter um docblock bom e rodar o comando `doxygen -g Doxyfile`. Esse comando precisa ser instalado no computador. Para mais informações: [Doxygen](https://www.doxygen.nl/download.html). Após rodar o comando, um arquivo de Doxyfile é gerado para documentação e será usado como configuração para rodar a doc do projeto com o comando `doxygen`. Vale lembrar que não funciona com Kotlin, e para essa linguagem o ideal é usar Dokka.

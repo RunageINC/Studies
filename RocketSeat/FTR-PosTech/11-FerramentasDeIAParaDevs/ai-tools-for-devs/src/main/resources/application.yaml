@@ -21,3 +21,6 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+sentry:
+  SENTRY_AUTH_TOKEN: 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
