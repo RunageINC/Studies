@@ -12,3 +12,16 @@
 - [ ] The Legend of Dragoon
 - [ ] Parasite Eve
 - [ ] Lunar: Silver Star Story Complete
+
+## PSP
+
+- [ ] Jeanne d'Arc
+- [ ] Tales of Eternia
+- [ ] FFT WotL
+- [ ] Persona 2
+
+## PC
+- [ ] Shrine Legacy
+
+## Wii
+- [ ] The Last Story

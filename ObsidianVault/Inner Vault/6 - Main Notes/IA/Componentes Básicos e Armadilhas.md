@@ -8,7 +8,7 @@ Existem boas práticas e armadilhas que devemos considerar para criar prompts:
 - Ter contexto
 - Definir o formato de resposta desejado
 	- Exemplificar entrada e saída
-- Restringa a saída e parametrize a entrada para o formato desejado
+- Restrinja a saída e parametrize a entrada para o formato desejado
 
 **Armadilhas**:
 

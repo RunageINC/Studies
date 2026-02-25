@@ -5,7 +5,7 @@ They are independent for deploying, scale and build.
 
 Services are not separated only by modules. This is the first misconception of microservices.
 
-Microservices are modeled through a domain concept (basically, [[DDD]]). People that speak in a similar manner belongs to the same business area. This is enough to produce a microservice. Those are usually where the boundaries are defined (therefore, [[DDD#Bounded Context|Bounded Context]] from DDD).
+Microservices are modeled through a domain concept (basically, [[6 - Main Notes/DDD]]). People that speak in a similar manner belongs to the same business area. This is enough to produce a microservice. Those are usually where the boundaries are defined (therefore, [[6 - Main Notes/DDD#Bounded Context|Bounded Context]] from DDD).
 
 There are some advantages for using microservices:
 

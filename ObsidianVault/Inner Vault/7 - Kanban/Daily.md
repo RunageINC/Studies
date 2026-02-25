@@ -19,7 +19,7 @@ kanban-plugin: board
 - [ ] Pedir ajuda com organização ao Rudy
 
 
-## For Tomorrow - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.setDate(t.getDate()+1),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">31/01/2026</span><span type="end"></span>
+## For Tomorrow - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.setDate(t.getDate()+1),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">09/02/2026</span><span type="end"></span>
 
 - [ ] Cobrar Nutri
 - [ ] Ver meu plano de saúde
@@ -29,9 +29,10 @@ kanban-plugin: board
 - [ ] Find improvements on the projects I'm working on
 
 
-## To Do - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">30/01/2026</span><span type="end"></span>
+## To Do - <span query="jsFunc(, func = ()=&gt;(()=&gt;{const t=new Date;return t.setHours(0,0,0,0),t.toLocaleDateString(&#x27;pt-BR&#x27;)})())"></span><span class="lv-live-text">08/02/2026</span><span type="end"></span>
 
 - [ ] Criar um ticket Linear para o Nick para adicionar rules em prod que permite acessar a api via remittances.staging.api-us.meridianapps.dev/risk/v1/manual-reviews
+- [ ] - [ ] Remove Sentry Env from env vars to get automatically through env
 
 
 ## Doing

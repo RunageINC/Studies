@@ -4,16 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "25a8c7b65faa50a7",
+        "id": "66b63bb717013474",
         "type": "tabs",
         "children": [
           {
-            "id": "12482990c237fd3a",
+            "id": "1dea2f5109db0e85",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Meditação/Meditação e Chakras.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Meditação e Chakras"
+            }
+          },
+          {
+            "id": "95b81ca6a42d3046",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/IA/Ferramentas para Desenvolvedores.md",
+                "file": "6 - Main Notes/Architecture/DDD/Elementos do Domínio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ferramentas para Desenvolvedores"
+              "title": "Elementos do Domínio"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Comer o sapo",
+                "query": "standing ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +165,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -170,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -192,55 +221,55 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "12482990c237fd3a",
+  "active": "95b81ca6a42d3046",
   "lastOpenFiles": [
-    "6 - Main Notes/Fantasy Life i - Crafting and Quest.md",
-    "6 - Main Notes/IA/Ferramentas para Desenvolvedores.md",
-    "Meridian/Flows.excalidraw.md",
-    "Meridian/Error Report Template.md",
-    "Meridian/Deployment Process.md",
-    "Meridian/Identity Verification Flow (IDV).md",
-    "Meridian/Important Notes For Features.md",
-    "Meridian/Meridian - Work Related.md",
-    "Meridian/Neobank.md",
-    "Meridian/Phone Tests.md",
-    "Meridian/Retool.md",
-    "Meridian/Testing Login Phone.md",
-    "Meridian/Thought Process.md",
-    "Meridian/Sentry Errors.md",
-    "Meridian/Meridian.md",
-    "7 - Kanban/Daily.md",
-    "6 - Main Notes/Observabilidade/Observabilidade.md",
+    "6 - Main Notes/Architecture/DDD/DDD.md",
+    "6 - Main Notes/Architecture/DDD/Arquitetura Hexagonal.md",
+    "6 - Main Notes/Architecture/DDD/Elementos do Domínio.md",
+    "6 - Main Notes/Architecture/DDD/Pasted image 20260224211603.png",
+    "6 - Main Notes/Architecture/DDD/Arquitetura em Camadas.md",
     "6 - Main Notes/Meditação/Meditação e Chakras.md",
+    "6 - Main Notes/CloudFlare/R2.md",
+    "6 - Main Notes/Architecture/DDD",
+    "6 - Main Notes/System Design/System Design.md",
+    "6 - Main Notes/Architecture",
+    "6 - Main Notes/Patterns/Criacionais/Builder.md",
+    "6 - Main Notes/Architecture/DDD/Screenshot 2026-02-24 at 20.36.49.png",
+    "6 - Main Notes/Patterns/Estruturais/Façade.md",
+    "6 - Main Notes/Patterns/Comportamentais/Strategy.md",
+    "6 - Main Notes/Patterns/Estruturais/Decorator.md",
+    "6 - Main Notes/Patterns/Estruturais/Adapter.md",
+    "6 - Main Notes/Patterns/Comportamentais/Observer.md",
+    "6 - Main Notes/Patterns/Criacionais/Factory Method.md",
+    "8 - Personal Projects/Projects/Games.md",
+    "Excalidraw/Drawing 2026-02-24 12.40.49.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-22 20.33.31.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-06 18.14.42.excalidraw.md",
+    "6 - Main Notes/IA/Conceitos e Algorítmos.md",
+    "6 - Main Notes/IA/Componentes Básicos e Armadilhas.md",
+    "6 - Main Notes/IA/Avanços e Desafios.md",
+    "6 - Main Notes/IA/Abordagens e Aplicações.md",
+    "6 - Main Notes/Links úteis.md",
+    "6 - Main Notes/Testing.md",
+    "6 - Main Notes/Testing no React.md",
+    "6 - Main Notes/Validation.md",
+    "6 - Main Notes/Untitled Diagram.svg",
+    "6 - Main Notes/Patterns/Comportamentais",
+    "Screenshot 2026-02-05 at 14.45.52.png",
+    "6 - Main Notes/Problem Solving/5w2h-diagram.png",
+    "6 - Main Notes/Problem Solving/ishikawa-diagram.png",
+    "6 - Main Notes/Patterns/Estruturais/Screenshot 2026-02-03 at 19.27.40.png",
+    "6 - Main Notes/Patterns/Estruturais",
+    "6 - Main Notes/Patterns/Criacionais",
+    "6 - Main Notes/Patterns/Pasted image 20260202183203.png",
+    "6 - Main Notes/Patterns",
     "8 - Personal Projects/Planejamento Semanal/Planejamento.canvas",
-    "1 - Rough Notes & Ideas/Getting json grouping by.md",
-    "6 - Main Notes/Untitled 3.md",
-    "4 - Indexes/DevOps & Architecture.md",
-    "6 - Main Notes/Untitled 2.md",
     "6 - Main Notes/Observabilidade",
-    "4 - Indexes/Back End.md",
     "Pasted image 20260120180142.png",
-    "6 - Main Notes/Untitled 1.md",
-    "8 - Personal Projects/Personal Canva.md",
-    "8 - Personal Projects/Movies.md",
     "Pasted image 20260110094803.png",
-    "Pasted image 20260110094755.png",
-    "Pasted image 20260110094748.png",
-    "Pasted image 20260110094735.png",
-    "Pasted image 20260110094726.png",
-    "Pasted image 20260110094720.png",
-    "Pasted image 20260110094653.png",
-    "Pasted image 20260110094642.png",
-    "Pasted image 20260110094629.png",
     "6 - Main Notes/Drawing",
     "6 - Main Notes/IA/Untitled",
     "6 - Main Notes/IA",
-    "8 - Personal Projects/Planejamento Semanal",
-    "8 - Personal Projects/Untitled.base",
-    "6 - Main Notes/Gestão de Tempo e Produtividade",
-    "6 - Main Notes/Networking and Routing",
-    "6 - Main Notes/IaC",
-    "6 - Main Notes/Python",
     "Untitled.canvas",
     "Persistence.canvas",
     "7 - Kanban/Untitled.canvas",
